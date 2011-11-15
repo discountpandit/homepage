@@ -1,6 +1,7 @@
 @import "fancy-buttons";
 $anchorcolor: #CC0000;
 $h1color: #CC0000;
+$h2color: #363D41;
 
 body {
   font-family: arialMT;
@@ -44,6 +45,41 @@ button {
   @include fancy-button-colors($button_bg);
   @include fancy-button-padding(10px, 12px);
   }
+
+h2{color:$h2color;
+font-size:18px;
+font-family:helvetica;
+margin:10px 0;
+}
+
+p{padding:10px 0;}
+
+blockquote{margin-left: 30px;
+    overflow: hidden;
+}
+
+blockquote span {background-repeat: no-repeat;
+    display: inline-block;
+    height: 23px;
+    width: 29px;}
+blockquote p{   color: #993333;
+    float: left;
+    font-family: helvetica;
+    font-size: 18px;
+    width: 330px;}
+span.quote-open {
+    background-image: url("../images/quote-open.png");
+    margin-right: 10px;
+    float:left;
+    }
+
+span.quote-close {
+    background-image: url("../images/quote-close.png");
+    margin-left: 15px;
+    margin-top: 27px;
+} 
+
+
 #merchantimg {
   padding: 0 8px 15px;
 }
