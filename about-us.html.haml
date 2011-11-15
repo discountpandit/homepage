@@ -1,0 +1,94 @@
+!!! 5
+-# paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+%html.no-js{ :lang => "en" }
+  <!--<![endif]-->
+  %head
+    %meta{ :charset => "utf-8" }/
+    
+    -# Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    -# Remove this if you use the .htaccess
+    %meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }/
+    
+    %title
+    %meta{ :name => "description", :content => "" }/
+    %meta{ :name => "author", :content => "" }/
+    
+    -# Mobile viewport optimized: j.mp/bplateviewport
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }/
+    
+    -# Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
+    
+    -# CSS: implied media="all"
+    %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+
+    
+    -# All JavaScript at the bottom, except for Modernizr and Respond.
+    -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+    %script{ :src => "js/modernizr.min.js" }
+    %script{ :src => "js/respond.min.js" }
+    %script{ :src => "javascripts/jquery.min.js" }
+
+  %body
+    #container.container_24
+      %header
+      .grid_16
+        .demos 
+          #tabs
+            %ul
+              %li
+                %a{:href => "#tabs-1"} About Us
+              %li
+                %a{:href => "#tabs-1"} Faq
+              %li
+                %a{:href => "#tabs-1"} Contact Us
+              %li
+                %a{:href => "#tabs-1"} Press
+              %li
+                %a{:href => "#tabs-1"} Jobs
+              %li
+                %a{:href => "#tabs-1"} Blog
+        
+          #tabs-1
+            %h2 Our Mission
+            %blockquote
+              %span{:class => "quote-open"} 
+              %p To connect businesses to people, producers to consumers and dreamers to their dreams… to revolutionize the way the world shops!
+              %span{:class => "quote-close"} 
+            %h2 Our Values
+            %p We are passionate about the Business of Retail: We are ardent believers of the Retail Therapy and love the miracles it has done. We are proud to be associated with such a dynamic industry.
+            %p We value our customers more than anything else: We take it as a matter of pride to serve our customers in the best possible way we can. Our happy customers are our biggest assets.
+            %p We believe in continuous Research & Development:  We know that we are in a rapidly evolving industry. Our in-house research team continuously studies trends and patterns and works closely with our development team to ensure that our services get better every time.
+            %h2 Our Team
+            %p We call ourselves the “Mixed Bag”. We have been handpicked from diverse disciplines- geeks, techies, designers, shoppers, party hoppers, explorers … The only criterion that was kept in mind before choosing us was “You have to be the best in what you do”
+            %p When our team members met for the first time for DiscountPandit, it was like ideas colliding head on. The chief reason why we were able to hold on to all those ideas was because we rocked as a team. We trusted and complimented each other well and yes in the end we came out with a service that is not only comprehensive in its approach but also revolutionary in its style…
+      
+      .grid_8
+        .sidebar
+          %img{ :src => "./images/add1.jpg" }
+          %h1 Popular Searches in Bangalore
+          %p Restaurants in Bangalore  |  Food Deals in Bangalore  |  Apparel Discounts in Delhi  |  Deals on Hair Cut in Bangalore  |  Holiday Deals in bangalore  |  Travel Deals in Bangalore  |  Restaurants in Bangalore   |  Food Deals in Bangalore  |  Apparel Discounts in Delhi  |  Deals on Hair Cut in Bangalore  |  Apparel Discounts in Delhi  |  Restaurants in Bangalore  |  Food Deals in Bangalore  |  Apparel Discounts in Delhi  |  Deals on Hair Cut in Bangalore  |  Holiday Deals in bangalore
+          %img{ :src => "./images/get-email.png" }
+      %footer
+      
+    -# 
+      Javascript at the bottom for fast page loading
+      Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+    %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+    :javascript
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
+    
+    %script{ :src => "js/plugins.js?v=1" }
+    %script{ :src => "js/script.js?v=1" }
+    
+    -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+    -#  change the UA-XXXXX-X to be your site's ID
+    :javascript
+      var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+      s.parentNode.insertBefore(g,s)}(document,"script"));
