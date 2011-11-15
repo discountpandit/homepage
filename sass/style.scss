@@ -46,40 +46,6 @@ button {
   @include fancy-button-padding(10px, 12px);
   }
 
-h2{color:$h2color;
-font-size:18px;
-font-family:helvetica;
-margin:10px 0;
-}
-
-p{padding:10px 0;}
-
-blockquote{margin-left: 30px;
-    overflow: hidden;
-}
-
-blockquote span {background-repeat: no-repeat;
-    display: inline-block;
-    height: 23px;
-    width: 29px;}
-blockquote p{   color: #993333;
-    float: left;
-    font-family: helvetica;
-    font-size: 18px;
-    width: 330px;}
-span.quote-open {
-    background-image: url("../images/quote-open.png");
-    margin-right: 10px;
-    float:left;
-    }
-
-span.quote-close {
-    background-image: url("../images/quote-close.png");
-    margin-left: 15px;
-    margin-top: 27px;
-} 
-
-
 #merchantimg {
   padding: 0 8px 15px;
 }
@@ -121,4 +87,75 @@ span.quote-close {
   .claimlisting {
     background: url(../images/claim-listing.jpg) 8px $bgtop no-repeat;
   }
+}
+
+
+/*Sanjay*/
+h2{color:$h2color;
+font-size:18px;
+font-family:helvetica;
+margin:10px 0;
+}
+
+h2 span{font-weight:bold;}
+p{padding:10px 0;}
+
+blockquote{margin-left: 30px;
+    overflow: hidden;
+}
+
+blockquote span {background-repeat: no-repeat;
+    display: inline-block;
+    height: 23px;
+    width: 29px;}
+blockquote p{   color: #993333;
+    float: left;
+    font-family: helvetica;
+    font-size: 18px;
+    width: 330px;}
+span.quote-open {
+    background-image: url("../images/quote-open.png");
+    margin-right: 10px;
+    float:left;
+    }
+
+span.quote-close {
+    background-image: url("../images/quote-close.png");
+    margin-left: 15px;
+    margin-top: 27px;
+} 
+
+.maincontent, #tabs-1{padding:0 30px 30px;}
+
+#howitworks{margin-top:20px;}
+#howitworks div.firsttab{border-top:1px solid #E4E7E9;}
+#howitworks div{ overflow: hidden;
+  border-bottom:1px solid #E4E7E9;
+  ul li{float: left;
+    margin: 15px 10px 10px 0;
+    padding: 5px;
+  }
+  li.first{    background-image: url("../images/howitworks-sl.png");
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 25px;
+    padding: 6px 0;
+    text-align: center;
+    width: 32px;
+    border:none;
+  }
+  li.second{
+    display: block;
+    font-family: helvetica;
+    font-size: 20px;
+     width: 117px;
+  }
+  li.second span{    display: block;
+    font-family: helvetica;
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 7px;
+  }
+  li.third {width:99px;text-align: center;}
+  li.four{width:245px;margin-right: 0;}
 }
