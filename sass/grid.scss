@@ -13,15 +13,8 @@
 .container_16 {
   @include grid-system(16); }
 
+.container_24 {
+  @include grid-system(24); }
+
 // But most compass users prefer to construct semantic layouts like so (two column layout with header and footer):
-
-$ninesixty-columns: 24;
-
-.two-column {
-  @include grid-container;
-  #header, #footer {
-    @include grid(24); }
-  #sidebar {
-    @include grid(8); }
-  #main-content {
-    @include grid(16); } }
+// But most compass users prefer to construct semantic layouts like so (two column layout with header and footer):

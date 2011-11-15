@@ -1,28 +1,88 @@
-// Here's where we define some default constants
-@import "partials/base";
+@import "fancy-buttons";
+$anchorcolor: #CC0000;
+$h1color: #CC0000;
 
-// Then we'll import the compass extension
-@import "html5-boilerplate";
+body {
+  font-family: arialMT;
+  font-size: 12px;
+  color: #666666;
+  line-height: 16px;
+}
+a {
+  color: $anchorcolor;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: normal;
+  color: $h1color;
+}
+strong {
+  font-weight: bold;
+  color: #666666;
+}
+.breadcrumb {
+  font-size: 11px;
+  padding: 15px 0;
+  .separator {
+    font-size: 10px;
+  }
+}
+button {
+  $button_bg: #A20000;
 
-// Now, you can simply include everything
-// (except media) by uncommeting this line
-//@include html5-boilerplate;
+  text-transform: capitalize;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+  @include fancy-button-size(18px, 5px, 0px);
+  @include fancy-button-colors($button_bg);
+  @include fancy-button-padding(10px, 12px);
+  }
+#merchantimg {
+  padding: 0 8px 15px;
+}
+#merchantdetails {
+  $bgtop: 10px;
+  p {
+    padding: 10px 0px 10px 50px;
+  }
+  .viewmap {
+    background: url(../images/view-map.jpg) 5px $bgtop no-repeat;
+  }
+  .mobileno {
+    background: url(../images/mobile.jpg) 12px $bgtop no-repeat;
+    min-height: 60px;
+    strong {
+      color: #000000;
+    }
+    span {
+      $bgtop: 2px;
+      $bgleft: 4px;
+      $paddingl: 26px;
 
-// Or, you can pick and choose only the sections
-// you want by using the these includes
-@include html5-boilerplate-reset;
-@include html5-boilerplate-fonts;
-@include html5-boilerplate-styles;
-@include html5-boilerplate-helpers;
-
-// Or, you can import the "overrides" partial if
-// you want more control over individual mixins
-//@import "partials/overrides";
-
-// Finally, put your own styles in these partials
-// and add more as needed (i.e. forms, tables, nav)
-@import "partials/fonts";
-@import "partials/page";
-
-// Media should come last
-@import "partials/media";
+      float: left;
+      display: block;
+      padding: 5px 5px 5px 0;
+      &.twittersmall {
+        background: url(../images/twitter-small.jpg) $bgleft $bgtop no-repeat;
+        padding-left: $paddingl;
+      }
+      &.facebooksmall {
+        background: url(../images/facebook-small.jpg) $bgleft $bgtop no-repeat;
+        padding-left: $paddingl;
+      }
+    }
+  }
+  .report {
+    background: url(../images/report.jpg) 10px $bgtop no-repeat;
+  }
+  .claimlisting {
+    background: url(../images/claim-listing.jpg) 8px $bgtop no-repeat;
+  }
+}
