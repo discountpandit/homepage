@@ -1,0 +1,69 @@
+/* get rid of those system borders being generated for A tags */
+a:active {
+  outline:none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
+
+/* root element for tabs  */
+ul.css-tabs {
+	margin:0 !important;
+	padding:0;
+	height:30px;
+        border-bottom: 1px solid #7D8B93;
+}
+
+/* single tab */
+ul.css-tabs li {
+	float:left;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+/* link inside the tab. uses a background image */
+ul.css-tabs a {
+	float:left;
+	font-size:13px;
+	display:block;
+	padding:5px 30px;
+	text-decoration:none;
+	border:1px solid #FFFFFF;
+	border-bottom:0px;
+	height:18px;
+	background-color:#E4E7E9;
+	color:#333D3F;
+	margin-right:2px;
+	position:relative;
+	top:1px;
+	outline:0;
+	-moz-border-radius:5px 5px 0 0;
+}
+
+ul.css-tabs a:hover {
+	background-color:#F7F7F7;
+	color:#333;
+}
+
+/* selected tab */
+ul.css-tabs a.current {
+	background-color:#FFFFFF;
+	border:1px solid #7D8B93;
+        border-bottom: 1px solid #FFFFFF;
+        font-weight: bold;
+	color:#000;
+	cursor:default;
+}
+
+
+/* tab pane */
+.css-panes div {
+	display:none;
+	min-height:150px;
+	padding:15px 20px;
+}
+
+
+

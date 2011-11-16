@@ -1,7 +1,14 @@
 @import "fancy-buttons";
+@import "compass/css3/border-radius";
+
 $anchorcolor: #CC0000;
 $h1color: #CC0000;
+<<<<<<< HEAD
 $h2color: #363D41;
+=======
+$textcolor: #666666;
+$button_bg: #A20000;
+>>>>>>> merchantpage
 
 body {
   font-family: arialMT;
@@ -20,11 +27,15 @@ h1 {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: normal;
+  font-family: helvetica;
   color: $h1color;
 }
 strong {
   font-weight: bold;
   color: #666666;
+}
+.verticleprefix {
+  padding: 8px;
 }
 .breadcrumb {
   font-size: 11px;
@@ -33,9 +44,10 @@ strong {
     font-size: 10px;
   }
 }
+.block {
+  margin: 15px 0;
+}
 button {
-  $button_bg: #A20000;
-
   text-transform: capitalize;
   font-weight: bold;
   &:hover {
@@ -50,7 +62,7 @@ button {
   padding: 0 8px 15px;
 }
 #merchantdetails {
-  $bgtop: 10px;
+  $bgtop: 12px;
   p {
     padding: 10px 0px 10px 50px;
   }
@@ -64,20 +76,20 @@ button {
       color: #000000;
     }
     span {
-      $bgtop: 2px;
-      $bgleft: 4px;
-      $paddingl: 26px;
+      $sbgtop: 2px;
+      $sbgleft: 4px;
+      $spaddingl: 26px;
 
       float: left;
       display: block;
       padding: 5px 5px 5px 0;
       &.twittersmall {
-        background: url(../images/twitter-small.jpg) $bgleft $bgtop no-repeat;
-        padding-left: $paddingl;
+        background: url(../images/twitter-small.jpg) $sbgleft $sbgtop no-repeat;
+        padding-left: $spaddingl;
       }
       &.facebooksmall {
-        background: url(../images/facebook-small.jpg) $bgleft $bgtop no-repeat;
-        padding-left: $paddingl;
+        background: url(../images/facebook-small.jpg) $sbgleft $sbgtop no-repeat;
+        padding-left: $spaddingl;
       }
     }
   }
@@ -89,6 +101,7 @@ button {
   }
 }
 
+<<<<<<< HEAD
 
 /*Sanjay*/
 h2{color:$h2color;
@@ -158,4 +171,82 @@ span.quote-close {
   }
   li.third {width:99px;text-align: center;}
   li.four{width:245px;margin-right: 0;}
+=======
+#commentform {
+  textarea {
+    @include border-radius(5px 5px, 5px 5px);
+    @include box-shadow();
+    border: 1px solid #EBEBEB;
+    width: 100%;
+    min-height: 85px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+  input.button {
+    text-transform: capitalize;
+    font-weight: bold;
+    &:hover {
+       cursor: pointer;
+    }
+      @include fancy-button-size(14px, 5px, 0px);
+      @include fancy-button-colors($button_bg);
+      @include fancy-button-padding(6px, 10px);
+    }
+}
+
+.css-panes div.container_10 {
+  display: block!important;
+  padding: 0!important;
+  .grid_4, .grid_10 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .grid_4 {
+    padding-left: 10px;
+  }
+}
+#alertbox {
+  @include border-radius(8px 8px, 8px 8px);
+  background: #8DC7C2 url(../images/alertboxbg.png) 98% 5px no-repeat;
+  padding: 5px 10px;
+  p {
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-family: helvetica;
+    color: #FFFFFF;
+    span {
+      font-weight: bold;
+    }
+  }
+  input {
+    border: 1px solid #54ADAA;
+    @include border-radius(4px 4px, 4px 4px);
+    width: 140px;
+    padding: 5px;
+    color: $textcolor;
+  }
+  input.button {
+  $ibutton_bg: #39A1A0;
+
+  width: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+  @include fancy-button-size(14px, 4px, 1px);
+  @include fancy-button-colors($ibutton_bg);
+  @include fancy-button-padding(5px, 15px);
+  }
+}
+
+.dealprice {
+  ul {
+    @include border-radius(5px 5px, 5px 5px);
+    @include box-shadow();
+    li {
+      float: left;
+    }
+  }
+>>>>>>> merchantpage
 }

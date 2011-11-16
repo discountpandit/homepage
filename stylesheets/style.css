@@ -1,308 +1,64 @@
-/* incase an inverted custom gradient isn't specified */
-/* line 177, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class {
-  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
-  background: url('/images/button_bg.png?1321354194') repeat-x bottom left;
-  margin: 0;
-  width: auto;
-  overflow: visible;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  border-style: solid;
-  font-weight: bold;
-}
-/* line 165, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-/* line 168, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class:focus {
-  outline: none;
-}
+/*
+Syntax error: Invalid CSS after "$h1color: #CC0000;": expected selector or at-rule, was "<<<<<<< HEAD"
+        on line 6 of /home/kc/homepage/sass/style.scss
 
-/* line 6, ../sass/style.scss */
-body {
-  font-family: arialMT;
-  font-size: 12px;
-  color: #666666;
-  line-height: 16px;
-}
+1: /home/kc/homepage/sass/style.scss
 
-/* line 12, ../sass/style.scss */
-a {
-  color: #cc0000;
-  text-decoration: none;
-}
-/* line 15, ../sass/style.scss */
-a:hover {
-  text-decoration: underline;
-}
-
-/* line 19, ../sass/style.scss */
-h1 {
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: normal;
-  color: #cc0000;
-}
-
-/* line 25, ../sass/style.scss */
-strong {
-  font-weight: bold;
-  color: #666666;
-}
-
-/* line 29, ../sass/style.scss */
-.breadcrumb {
-  font-size: 11px;
-  padding: 15px 0;
-}
-/* line 32, ../sass/style.scss */
-.breadcrumb .separator {
-  font-size: 10px;
-}
-
-/* line 36, ../sass/style.scss */
-button {
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 18px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: #a20000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4b4b), color-stop(10%, #ef0000), color-stop(50%, #930000), color-stop(50%, #830000), color-stop(100%, #b60000));
-  background-image: -webkit-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -moz-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -o-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -ms-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  border-color: #550000;
-  text-shadow: #220000 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 10px 12px;
-  border-width: 1px;
-}
-/* line 41, ../sass/style.scss */
-button:hover {
-  cursor: pointer;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button, button:visited {
-  color: white;
-}
-/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:hover, button:focus {
-  background-color: #930000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
-  background-image: -webkit-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -moz-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -o-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -ms-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  border-color: #460000;
-  text-shadow: #130000 0px 1px 1px;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:hover, button:hover:visited, button:focus, button:focus:visited {
-  color: white;
-}
-/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:active {
-  background-color: #830000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
-  background-image: -webkit-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -moz-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -o-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -ms-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  border-color: #370000;
-  text-shadow: #040000 0px -1px -1px;
-  -webkit-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  box-shadow: #550000 0 0.08em 0.2em 1px inset;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:active, button:active:visited {
-  color: white;
-}
-
-/* line 49, ../sass/style.scss */
-#merchantimg {
-  padding: 0 8px 15px;
-}
-
-/* line 54, ../sass/style.scss */
-#merchantdetails p {
-  padding: 10px 0px 10px 50px;
-}
-/* line 57, ../sass/style.scss */
-#merchantdetails .viewmap {
-  background: url(../images/view-map.jpg) 5px 10px no-repeat;
-}
-/* line 60, ../sass/style.scss */
-#merchantdetails .mobileno {
-  background: url(../images/mobile.jpg) 12px 10px no-repeat;
-  min-height: 60px;
-}
-/* line 63, ../sass/style.scss */
-#merchantdetails .mobileno strong {
-  color: #000000;
-}
-/* line 66, ../sass/style.scss */
-#merchantdetails .mobileno span {
-  float: left;
-  display: block;
-  padding: 5px 5px 5px 0;
-}
-/* line 74, ../sass/style.scss */
-#merchantdetails .mobileno span.twittersmall {
-  background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-}
-/* line 78, ../sass/style.scss */
-#merchantdetails .mobileno span.facebooksmall {
-  background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-}
-/* line 84, ../sass/style.scss */
-#merchantdetails .report {
-  background: url(../images/report.jpg) 10px 2px no-repeat;
-}
-/* line 87, ../sass/style.scss */
-#merchantdetails .claimlisting {
-  background: url(../images/claim-listing.jpg) 8px 2px no-repeat;
-}
-
-/*Sanjay*/
-/* line 94, ../sass/style.scss */
-h2 {
-  color: #363d41;
-  font-size: 18px;
-  font-family: helvetica;
-  margin: 10px 0;
-}
-
-/* line 100, ../sass/style.scss */
-h2 span {
-  font-weight: bold;
-}
-
-/* line 101, ../sass/style.scss */
-p {
-  padding: 10px 0;
-}
-
-/* line 103, ../sass/style.scss */
-blockquote {
-  margin-left: 30px;
-  overflow: hidden;
-}
-
-/* line 107, ../sass/style.scss */
-blockquote span {
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 23px;
-  width: 29px;
-}
-
-/* line 111, ../sass/style.scss */
-blockquote p {
-  color: #993333;
-  float: left;
-  font-family: helvetica;
-  font-size: 18px;
-  width: 330px;
-}
-
-/* line 116, ../sass/style.scss */
-span.quote-open {
-  background-image: url("../images/quote-open.png");
-  margin-right: 10px;
-  float: left;
-}
-
-/* line 122, ../sass/style.scss */
-span.quote-close {
-  background-image: url("../images/quote-close.png");
-  margin-left: 15px;
-  margin-top: 27px;
-}
-
-/* line 128, ../sass/style.scss */
-.maincontent, #tabs-1 {
-  padding: 0 30px 30px;
-}
-
-/* line 130, ../sass/style.scss */
-#howitworks {
-  margin-top: 20px;
-}
-
-/* line 131, ../sass/style.scss */
-#howitworks div.firsttab {
-  border-top: 1px solid #E4E7E9;
-}
-
-/* line 132, ../sass/style.scss */
-#howitworks div {
-  overflow: hidden;
-  border-bottom: 1px solid #E4E7E9;
-}
-/* line 134, ../sass/style.scss */
-#howitworks div ul li {
-  float: left;
-  margin: 15px 10px 10px 0;
-  padding: 5px;
-}
-/* line 138, ../sass/style.scss */
-#howitworks div li.first {
-  background-image: url("../images/howitworks-sl.png");
-  color: #FFFFFF;
-  font-size: 18px;
-  height: 25px;
-  padding: 6px 0;
-  text-align: center;
-  width: 32px;
-  border: none;
-}
-/* line 147, ../sass/style.scss */
-#howitworks div li.second {
-  display: block;
-  font-family: helvetica;
-  font-size: 20px;
-  width: 117px;
-}
-/* line 153, ../sass/style.scss */
-#howitworks div li.second span {
-  display: block;
-  font-family: helvetica;
-  font-size: 30px;
-  font-weight: normal;
-  padding-bottom: 7px;
-}
-/* line 159, ../sass/style.scss */
-#howitworks div li.third {
-  width: 99px;
-  text-align: center;
-}
-/* line 160, ../sass/style.scss */
-#howitworks div li.four {
-  width: 245px;
-  margin-right: 0;
-}
+Backtrace:
+/home/kc/homepage/sass/style.scss:6
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:926:in `expected'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:872:in `expected'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:29:in `parse'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:327:in `_to_tree'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:300:in `_render'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:248:in `block in render'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/util.rb:297:in `silence_sass_warnings'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:248:in `render'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:125:in `timed'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:138:in `block in compile'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/logger.rb:45:in `red'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:137:in `compile'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:117:in `compile_if_required'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:102:in `block (2 levels) in run'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:100:in `each'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:100:in `block in run'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:125:in `timed'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:99:in `run'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/commands/watch_project.rb:142:in `recompile'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `call'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `run_callback'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/path.rb:55:in `callback_action'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/path.rb:35:in `update'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/state/directory.rb:39:in `block in modified'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `each'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `modified'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/state/directory.rb:18:in `refresh'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/backends/inotify.rb:12:in `block in add_handler'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `call'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `block in watch'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `[]'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `callback!'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/event.rb:128:in `callback!'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `block in process'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `each'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `process'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:216:in `run'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/backends/inotify.rb:20:in `run'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm/monitor.rb:26:in `run'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/fssm-0.2.7/lib/fssm.rb:20:in `monitor'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/commands/watch_project.rb:86:in `perform'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/commands/base.rb:18:in `execute'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/commands/project_base.rb:19:in `execute'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/bin/compass:25:in `block in <top (required)>'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/bin/compass:39:in `call'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.1/bin/compass:39:in `<top (required)>'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `load'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"$h1color: #CC0000;\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 6 of /home/kc/homepage/sass/style.scss\A \A 1: /home/kc/homepage/sass/style.scss"; }
