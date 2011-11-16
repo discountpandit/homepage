@@ -3,12 +3,9 @@
 
 $anchorcolor: #CC0000;
 $h1color: #CC0000;
-<<<<<<< HEAD
 $h2color: #363D41;
-=======
 $textcolor: #666666;
 $button_bg: #A20000;
->>>>>>> merchantpage
 
 body {
   font-family: arialMT;
@@ -101,8 +98,6 @@ button {
   }
 }
 
-<<<<<<< HEAD
-
 /*Sanjay*/
 h2{color:$h2color;
 font-size:18px;
@@ -136,7 +131,7 @@ span.quote-close {
     background-image: url("../images/quote-close.png");
     margin-left: 15px;
     margin-top: 27px;
-} 
+}
 
 .maincontent, #tabs-1{padding:0 30px 30px;}
 
@@ -171,7 +166,7 @@ span.quote-close {
   }
   li.third {width:99px;text-align: center;}
   li.four{width:245px;margin-right: 0;}
-=======
+
 #commentform {
   textarea {
     @include border-radius(5px 5px, 5px 5px);
@@ -248,5 +243,4 @@ span.quote-close {
       float: left;
     }
   }
->>>>>>> merchantpage
 }

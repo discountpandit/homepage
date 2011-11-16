@@ -1,14 +1,18 @@
 /*
-Syntax error: Invalid CSS after "$h1color: #CC0000;": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 6 of /home/kc/homepage/sass/style.scss
-
-1: /home/kc/homepage/sass/style.scss
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 247 of /home/kc/homepage/sass/style.scss
 
 Backtrace:
-/home/kc/homepage/sass/style.scss:6
+/home/kc/homepage/sass/style.scss:247
 /home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:926:in `expected'
 /home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:872:in `expected'
-/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:29:in `parse'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:867:in `tok!'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:378:in `block'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:371:in `ruleset'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:395:in `block_child'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:388:in `block_contents'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:59:in `stylesheet'
+/home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/scss/parser.rb:28:in `parse'
 /home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:327:in `_to_tree'
 /home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:300:in `_render'
 /home/kc/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.10/lib/sass/engine.rb:248:in `block in render'
@@ -61,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"$h1color: #CC0000;\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 6 of /home/kc/homepage/sass/style.scss\A \A 1: /home/kc/homepage/sass/style.scss"; }
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 247 of /home/kc/homepage/sass/style.scss"; }
