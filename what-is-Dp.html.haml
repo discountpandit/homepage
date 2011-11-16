@@ -50,8 +50,17 @@
           %strong Now explore shopping like never before! Have Fun !
           %p For you to get going, here are some deals that we recommend        
       .grid_8
-        .sidebar
-          %img{ :src => "./images/get-email.png" }
+        %div.block#alertbox
+          %p
+            Get
+            %span Daily Deal Alerts
+            by
+            %br
+            email for Bangalore
+          %form{:action => "#", :method => "POST"}
+          %input{:type => "textbox", :value => "enter email address", :name => "emailid"}
+          %input{:type => "submit", :value => "Go", :name => "go", :class => "button"}
+        %div.block
           %img{ :src => "./images/add1.jpg" }
       %footer
       

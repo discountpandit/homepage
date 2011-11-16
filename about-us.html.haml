@@ -25,36 +25,34 @@
     -# CSS: implied media="all"
     %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
     %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
-
+    %link{ :href => "stylesheets/tabs.css?v=1", :media => "all", :rel => "stylesheet" }/
     
     -# All JavaScript at the bottom, except for Modernizr and Respond.
     -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
     %script{ :src => "js/modernizr.min.js" }
     %script{ :src => "js/respond.min.js" }
-    %script{ :src => "javascripts/jquery.min.js" }
 
   %body
     #container.container_24
       %header
     #container.container_24
       .grid_16
-        .demos 
-          #tabs
-            %ul
-              %li
-                %a{:href => "#tabs-1"} About Us
-              %li
-                %a{:href => "#tabs-1"} Faq
-              %li
-                %a{:href => "#tabs-1"} Contact Us
-              %li
-                %a{:href => "#tabs-1"} Press
-              %li
-                %a{:href => "#tabs-1"} Jobs
-              %li
-                %a{:href => "#tabs-1"} Blog
+        %ul.css-tabs
+          %li
+            %a{:href => "#", :class => "current"} About Us
+          %li
+            %a{:href => "#"} Faq
+          %li
+            %a{:href => "#"} Contact Us
+          %li
+            %a{:href => "#"} Press
+          %li
+            %a{:href => "#"} Jobs
+          %li
+            %a{:href => "#"} Blog
         
-          #tabs-1
+        .css-panes.maincontent
+          %div{:style => "display: block"}
             %h2 Our Mission
             %blockquote
               %span{:class => "quote-open"} 
@@ -69,13 +67,36 @@
             %p When our team members met for the first time for DiscountPandit, it was like ideas colliding head on. The chief reason why we were able to hold on to all those ideas was because we rocked as a team. We trusted and complimented each other well and yes in the end we came out with a service that is not only comprehensive in its approach but also revolutionary in its style…
       
       .grid_8
-        .sidebar
+        %div.block
           %img{ :src => "./images/add1.jpg" }
+        %div.block
           %h2
-            %span Popular 
-            Searches in Bangalore
-          %p Restaurants in Bangalore  |  Food Deals in Bangalore  |  Apparel Discounts in Delhi  |  Deals on Hair Cut in Bangalore  |  Holiday Deals in bangalore  |  Travel Deals in Bangalore  |  Restaurants in Bangalore   |  Food Deals in Bangalore  |  Apparel Discounts in Delhi  |  Deals on Hair Cut in Bangalore  |  Apparel Discounts in Delhi  |  Restaurants in Bangalore  |  Food Deals in Bangalore  |  Apparel Discounts in Delhi  |  Deals on Hair Cut in Bangalore  |  Holiday Deals in bangalore
-          %img{ :src => "./images/get-email.png" }
+            %span Popular Searches 
+            in Bangalore
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+        %div.block#alertbox
+          %p
+            Get
+            %span Daily Deal Alerts
+            by
+            %br
+            email for Bangalore
+          %form{:action => "#", :method => "POST"}
+          %input{:type => "textbox", :value => "enter email address", :name => "emailid"}
+          %input{:type => "submit", :value => "Go", :name => "go", :class => "button"}
       %footer
       
     -# 
@@ -83,7 +104,11 @@
       Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
     %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
     :javascript
-      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>");
+      $(function() {
+        // :first selector is optional if you have only one tabs on the page
+        $(".css-tabs:first").tabs(".css-panes:first > div");
+      });
     
     %script{ :src => "js/plugins.js?v=1" }
     %script{ :src => "js/script.js?v=1" }

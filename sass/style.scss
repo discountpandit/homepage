@@ -100,28 +100,32 @@ button {
 
 
 /*Sanjay*/
-h2{color:$h2color;
-font-size:18px;
-font-family:helvetica;
-margin:10px 0;
+h2{
+    color:$h2color;
+    font-size:18px;
+    font-family:helvetica;
+    margin:10px 0;
+  span{font-weight:bold;}
 }
 
-h2 span{font-weight:bold;}
 p{padding:10px 0;}
 
-blockquote{margin-left: 30px;
+blockquote{
+    margin-left: 30px;
     overflow: hidden;
-}
-
-blockquote span {background-repeat: no-repeat;
+    span{
+    background-repeat: no-repeat;
     display: inline-block;
     height: 23px;
-    width: 29px;}
-blockquote p{   color: #993333;
+    width: 29px;
+    }
+    p{
+    color: #993333;
     float: left;
     font-family: helvetica;
     font-size: 18px;
     width: 330px;}
+}
 span.quote-open {
     background-image: url("../images/quote-open.png");
     margin-right: 10px;
@@ -157,13 +161,13 @@ span.quote-close {
       display: block;
       font-family: helvetica;
       font-size: 20px;
-       width: 117px;
-       span{
-        display: block;
-        font-family: helvetica;
-        font-size: 30px;
-        font-weight: normal;
-        padding-bottom: 7px;
+      width: 117px;
+      span{
+       display: block;
+       font-family: helvetica;
+       font-size: 30px;
+       font-weight: normal;
+       padding-bottom: 7px;
       }
     }
     &.third {

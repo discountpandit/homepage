@@ -200,39 +200,36 @@ button:active, button:active:visited {
 }
 
 /*Sanjay*/
-/* line 102, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 h2 {
   color: #363d41;
   font-size: 18px;
   font-family: helvetica;
   margin: 10px 0;
 }
-
 /* line 108, ../sass/style.scss */
 h2 span {
   font-weight: bold;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 p {
   padding: 10px 0;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 blockquote {
   margin-left: 30px;
   overflow: hidden;
 }
-
-/* line 115, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 blockquote span {
   background-repeat: no-repeat;
   display: inline-block;
   height: 23px;
   width: 29px;
 }
-
-/* line 119, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 blockquote p {
   color: #993333;
   float: left;
@@ -241,47 +238,47 @@ blockquote p {
   width: 330px;
 }
 
-/* line 124, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 span.quote-open {
   background-image: url("../images/quote-open.png");
   margin-right: 10px;
   float: left;
 }
 
-/* line 130, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 span.quote-close {
   background-image: url("../images/quote-close.png");
   margin-left: 15px;
   margin-top: 27px;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .maincontent, #tabs-1 {
   padding: 0 30px 30px;
 }
 
-/* line 138, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 #howitworks {
   margin-top: 20px;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 #howitworks div.firsttab {
   border-top: 1px solid #E4E7E9;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 #howitworks div {
   overflow: hidden;
   border-bottom: 1px solid #E4E7E9;
 }
-/* line 142, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 #howitworks div ul li {
   float: left;
   margin: 15px 10px 10px 0;
   padding: 5px;
 }
-/* line 145, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 #howitworks div ul li.first {
   background-image: url("../images/howitworks-sl.png");
   color: #FFFFFF;
@@ -292,14 +289,14 @@ span.quote-close {
   width: 32px;
   border: none;
 }
-/* line 155, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 #howitworks div ul li.second {
   display: block;
   font-family: helvetica;
   font-size: 20px;
   width: 117px;
 }
-/* line 160, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 #howitworks div ul li.second span {
   display: block;
   font-family: helvetica;
@@ -307,18 +304,18 @@ span.quote-close {
   font-weight: normal;
   padding-bottom: 7px;
 }
-/* line 168, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 #howitworks div ul li.third {
   width: 99px;
   text-align: center;
 }
-/* line 171, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 #howitworks div ul li.four {
   width: 245px;
   margin-right: 0;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 #commentform textarea {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -334,7 +331,7 @@ span.quote-close {
   padding: 5px;
   margin: 10px 0;
 }
-/* line 185, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 #commentform input.button {
   text-transform: capitalize;
   font-weight: bold;
@@ -367,7 +364,7 @@ span.quote-close {
   padding: 6px 10px;
   border-width: 1px;
 }
-/* line 188, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 #commentform input.button:hover {
   cursor: pointer;
 }
@@ -411,22 +408,22 @@ span.quote-close {
   color: white;
 }
 
-/* line 197, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .css-panes div.container_10 {
   display: block!important;
   padding: 0!important;
 }
-/* line 200, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .css-panes div.container_10 .grid_4, .css-panes div.container_10 .grid_10 {
   padding: 0px;
   margin: 0px;
 }
-/* line 204, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .css-panes div.container_10 .grid_4 {
   padding-left: 10px;
 }
 
-/* line 208, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 #alertbox {
   -webkit-border-radius: 8px 8px / 8px 8px;
   -moz-border-radius: 8px 8px / 8px 8px;
@@ -436,18 +433,18 @@ span.quote-close {
   background: #8dc7c2 url(../images/alertboxbg.png) 98% 5px no-repeat;
   padding: 5px 10px;
 }
-/* line 212, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 #alertbox p {
   font-size: 16px;
   padding-bottom: 5px;
   font-family: helvetica;
   color: #FFFFFF;
 }
-/* line 217, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 #alertbox p span {
   font-weight: bold;
 }
-/* line 221, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 #alertbox input {
   border: 1px solid #54ADAA;
   -webkit-border-radius: 4px 4px / 4px 4px;
@@ -459,7 +456,7 @@ span.quote-close {
   padding: 5px;
   color: #666666;
 }
-/* line 228, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 #alertbox input.button {
   width: 20px;
   text-transform: capitalize;
@@ -493,7 +490,7 @@ span.quote-close {
   padding: 5px 15px;
   border-width: 1px;
 }
-/* line 234, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 #alertbox input.button:hover {
   cursor: pointer;
 }
@@ -537,7 +534,7 @@ span.quote-close {
   color: white;
 }
 
-/* line 244, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 .dealprice ul {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -548,7 +545,7 @@ span.quote-close {
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 247, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .dealprice ul li {
   float: left;
 }
