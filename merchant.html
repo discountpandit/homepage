@@ -14,6 +14,7 @@
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     <link href='stylesheets/grid.css?v=1' media='all' rel='stylesheet' />
     <link href='stylesheets/style.css?v=1' media='all' rel='stylesheet' />
+    <link href='stylesheets/tabs.css?v=1' media='all' rel='stylesheet' />
     <script src='js/modernizr.min.js'></script>
     <script src='js/respond.min.js'></script>
   </head>
@@ -42,27 +43,142 @@
             <h1>sangeetha stores, indiranagar</h1>
             <ul id='merchantdetails'>
               <li class='viewmap'>
-                <p>address of the merchant goes here<br /><a href="#">view map</a></p>
+                <p>
+                  address of the merchant goes here
+                  <br />
+                  <a href='#'>view map</a>
+                </p>
               </li>
               <li class='mobileno'>
-                <p>Get in touch with <strong>Rakesh Rakesh</strong><br />9180234567, 9180234567,<br /><span class="website">www.discountpandit.com</span><span class="twittersmall">http://twitter.com/discountpandit</span><span class="facebooksmall">http://fb.com/discountpandit</span></p>
+                <p>
+                  Get in touch with
+                  <strong>Rakesh Rakesh</strong>
+                  <br />
+                  9180234567, 9180234567,
+                  <br />
+                  <span class='website'>www.discountpandit.com</span>
+                  <span class='twittersmall'>http://twitter.com/discountpandit</span>
+                  <span class='facebooksmall'>http://fb.com/discountpandit</span>
+                </p>
               </li>
               <li class='report'>
-                <p><a href="#">Report an error on this Deal</a></p>
+                <p>
+                  <a href='#'>Report an error on this Deal</a>
+                </p>
               </li>
               <li class='claimlisting'>
-                <p><a href="#">Claim Listing</a></p>
+                <p>
+                  <a href='#'>Claim Listing</a>
+                </p>
               </li>
             </ul>
+          </div>
+        </div>
+        <div class='container_24'>
+          <div class='verticleprefix'>&nbsp;</div>
+          <div class='grid_15'>
+            <ul class='css-tabs'>
+              <li>
+                <a class='current' href='#'>More info</a>
+              </li>
+              <li>
+                <a href='#'>Deals</a>
+              </li>
+              <li>
+                <a href='#'>Photos</a>
+              </li>
+              <li>
+                <a href='#'>Reviews</a>
+              </li>
+            </ul>
+            <div class='css-panes'>
+              <div style='display: block'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis</p>
+                <p>Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas</p>
+                <p>
+                  <strong>Customer One</strong>
+                  <br />
+                  <span>Joined two months ago</span>
+                </p>
+                <p>Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas</p>
+                <h2>
+                  Write a Review for
+                  <span>Sangeetha Electronics Ltd.</span>
+                </h2>
+                <form action='#' id='commentform' method='POST'>
+                  <textarea name='comment' value='write a comment..'></textarea>
+                  <br />
+                  <input class='button' type='submit' value='Comment' />
+                </form>
+              </div>
+              <div style='display: none'>
+                <h2>Deals for Sangeetha Electronics Ltd.</h2>
+                <div class='container_10'>
+                  <div class='grid_4'>
+                    image goes here
+                  </div>
+                  <div class='grid_10'>
+                    <p>title of the deal goes here</p>
+                  </div>
+                </div>
+              </div>
+              <div style='display: none'>
+                <p>Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed</p>
+                <p>In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam</p>
+              </div>
+              <div style='display: none'>
+                <p>Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed</p>
+                <p>In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam</p>
+              </div>
+            </div>
+          </div>
+          <div class='grid_8 prefix_1'>
+            <div class='block'>
+              <h2>
+                <span>Tags</span>
+                on Sangetha Electronice Ltd
+              </h2>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+              <a href='#'>Restaurants in bangalore</a>
+              <span class='pipe'>&#124;</span>
+            </div>
+            <div class='block' id='alertbox'>
+              <p>
+                Get
+                <span>Daily Deal Alerts</span>
+                by
+                <br />
+                email for Bangalore
+              </p>
+              <form action='#' method='POST'>
+                <input name='emailid' type='textbox' value='enter email address' />
+                <input class='button' name='go' type='submit' value='Go' />
+              </form>
+            </div>
           </div>
         </div>
       </header>
       <footer></footer>
     </div>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js'></script>
+    <script src='http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js'></script>
     <script type='text/javascript'>
       //<![CDATA[
-        window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
+        window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>");
+        $(function() {
+          // :first selector is optional if you have only one tabs on the page
+          $(".css-tabs:first").tabs(".css-panes:first > div");
+        });
       //]]>
     </script>
     <script src='js/plugins.js?v=1'></script>
