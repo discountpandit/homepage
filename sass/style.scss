@@ -8,6 +8,9 @@ $textcolor: #666666;
 $button_bg: #A20000;
 $redcolor: #990000;
 $topbarcolor:#363D41;
+$sbgtop: 2px;
+$sbgleft: 4px;
+$spaddingl: 26px;
 
 body {
   font-family: arialMT;
@@ -181,6 +184,43 @@ span.quote-close {
     &.four{width:245px;margin-right: 0;}
   }
 }
+
+.website{
+    float:left;
+}
+.twittersmall {
+    background: url(../images/twitter-small.jpg) $sbgleft $sbgtop no-repeat;
+    padding-left: $spaddingl;
+    float:left;
+    height:22px;
+}
+.facebooksmall {
+    background: url(../images/facebook-small.jpg) $sbgleft $sbgtop no-repeat;
+    padding-left: $spaddingl;
+    float:left;
+    height:22px;
+}
+.report {
+    background: url(../images/report.jpg) 0 0 no-repeat;
+}
+.claimlisting {
+    background: url(../images/claim-listing.jpg) 0 0 no-repeat;
+    height: 26px;
+}
+
+ul#brand{float:right;
+    li{
+       display: block;
+       float: left;
+      a{
+         display: block;
+         margin: 2px 10px 0 30px;
+      }
+    }
+}
+a#brandbutton button{padding:10px 30px;}
+
+
 
 #commentform {
   textarea {
