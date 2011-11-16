@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* incase an inverted custom gradient isn't specified */
 /* line 177, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class {
@@ -551,11 +552,17 @@ span.quote-close {
   float: left;
 }
 =======
+=======
+>>>>>>> dealdetail
 /* incase an inverted custom gradient isn't specified */
 /* line 177, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class {
   font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+<<<<<<< HEAD
   background: url('/images/button_bg.png?1321430161') repeat-x bottom left;
+=======
+  background: url('/images/button_bg.png?1321429199') repeat-x bottom left;
+>>>>>>> dealdetail
   margin: 0;
   width: auto;
   overflow: visible;
@@ -575,7 +582,11 @@ span.quote-close {
   outline: none;
 }
 
+<<<<<<< HEAD
 /* line 12, ../sass/style.scss */
+=======
+/* line 11, ../sass/style.scss */
+>>>>>>> dealdetail
 body {
   font-family: arialMT;
   font-size: 12px;
@@ -583,23 +594,36 @@ body {
   line-height: 16px;
 }
 
+<<<<<<< HEAD
 /* line 18, ../sass/style.scss */
+=======
+/* line 17, ../sass/style.scss */
+>>>>>>> dealdetail
 a {
   color: #cc0000;
   text-decoration: none;
 }
+<<<<<<< HEAD
 /* line 21, ../sass/style.scss */
+=======
+/* line 20, ../sass/style.scss */
+>>>>>>> dealdetail
 a:hover {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /* line 25, ../sass/style.scss */
+=======
+/* line 24, ../sass/style.scss */
+>>>>>>> dealdetail
 h1 {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: normal;
   font-family: helvetica;
   color: #cc0000;
+  line-height: 20px;
 }
 
 /* line 32, ../sass/style.scss */
@@ -613,26 +637,53 @@ strong.red {
 }
 
 /* line 39, ../sass/style.scss */
+<<<<<<< HEAD
+=======
+hr.dotted {
+  border: none;
+  margin: 5px 0;
+  padding: 0;
+  border-bottom: 1px dotted #DBDBDB;
+}
+
+/* line 45, ../sass/style.scss */
+>>>>>>> dealdetail
 .verticleprefix {
   padding: 8px;
 }
 
+<<<<<<< HEAD
 /* line 42, ../sass/style.scss */
+=======
+/* line 48, ../sass/style.scss */
+>>>>>>> dealdetail
 .breadcrumb {
   font-size: 11px;
   padding: 15px 0;
 }
+<<<<<<< HEAD
 /* line 45, ../sass/style.scss */
+=======
+/* line 51, ../sass/style.scss */
+>>>>>>> dealdetail
 .breadcrumb .separator {
   font-size: 10px;
 }
 
+<<<<<<< HEAD
 /* line 49, ../sass/style.scss */
+=======
+/* line 55, ../sass/style.scss */
+>>>>>>> dealdetail
 .block {
   margin: 15px 0;
 }
 
+<<<<<<< HEAD
 /* line 52, ../sass/style.scss */
+=======
+/* line 58, ../sass/style.scss */
+>>>>>>> dealdetail
 button {
   text-transform: capitalize;
   font-weight: bold;
@@ -665,7 +716,11 @@ button {
   padding: 10px 12px;
   border-width: 1px;
 }
+<<<<<<< HEAD
 /* line 55, ../sass/style.scss */
+=======
+/* line 61, ../sass/style.scss */
+>>>>>>> dealdetail
 button:hover {
   cursor: pointer;
 }
@@ -709,11 +764,16 @@ button:active, button:active:visited {
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 63, ../sass/style.scss */
+=======
+/* line 69, ../sass/style.scss */
+>>>>>>> dealdetail
 #merchantimg {
   padding: 0 8px 15px;
 }
 
+<<<<<<< HEAD
 /* line 68, ../sass/style.scss */
 #merchantdetails p {
   padding: 10px 0px 10px 50px;
@@ -723,41 +783,92 @@ button:active, button:active:visited {
   background: url(../images/view-map.jpg) 5px 12px no-repeat;
 }
 /* line 74, ../sass/style.scss */
+=======
+/* line 74, ../sass/style.scss */
+#merchantdetails p {
+  padding: 10px 0px 10px 50px;
+}
+/* line 77, ../sass/style.scss */
+#merchantdetails .viewmap {
+  background: url(../images/view-map.jpg) 5px 12px no-repeat;
+}
+/* line 80, ../sass/style.scss */
+#merchantdetails .coupons {
+  background: url(../images/coupon.jpg) 5px 12px no-repeat;
+}
+/* line 83, ../sass/style.scss */
+#merchantdetails .viewmapblack {
+  background: url(../images/view-map-black.jpg) 5px 12px no-repeat;
+}
+/* line 86, ../sass/style.scss */
+#merchantdetails .hourglass {
+  background: url(../images/hourglass.jpg) 5px 12px no-repeat;
+}
+/* line 89, ../sass/style.scss */
+>>>>>>> dealdetail
 #merchantdetails .mobileno {
   background: url(../images/mobile.jpg) 12px 12px no-repeat;
   min-height: 60px;
 }
+<<<<<<< HEAD
 /* line 77, ../sass/style.scss */
 #merchantdetails .mobileno strong {
   color: #000000;
 }
 /* line 80, ../sass/style.scss */
+=======
+/* line 92, ../sass/style.scss */
+#merchantdetails .mobileno strong {
+  color: #000000;
+}
+/* line 95, ../sass/style.scss */
+>>>>>>> dealdetail
 #merchantdetails .mobileno span {
   float: left;
   display: block;
   padding: 5px 5px 5px 0;
 }
+<<<<<<< HEAD
 /* line 88, ../sass/style.scss */
+=======
+/* line 103, ../sass/style.scss */
+>>>>>>> dealdetail
 #merchantdetails .mobileno span.twittersmall {
   background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
 }
+<<<<<<< HEAD
 /* line 92, ../sass/style.scss */
+=======
+/* line 107, ../sass/style.scss */
+>>>>>>> dealdetail
 #merchantdetails .mobileno span.facebooksmall {
   background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
 }
+<<<<<<< HEAD
 /* line 98, ../sass/style.scss */
 #merchantdetails .report {
   background: url(../images/report.jpg) 10px 12px no-repeat;
 }
 /* line 101, ../sass/style.scss */
+=======
+/* line 113, ../sass/style.scss */
+#merchantdetails .report {
+  background: url(../images/report.jpg) 10px 12px no-repeat;
+}
+/* line 116, ../sass/style.scss */
+>>>>>>> dealdetail
 #merchantdetails .claimlisting {
   background: url(../images/claim-listing.jpg) 8px 12px no-repeat;
 }
 
 /*Sanjay*/
+<<<<<<< HEAD
 /* line 108, ../sass/style.scss */
+=======
+/* line 123, ../sass/style.scss */
+>>>>>>> dealdetail
 h2 {
   color: #363d41;
   font-size: 18px;
@@ -765,23 +876,39 @@ h2 {
   margin: 10px 0;
 }
 
+<<<<<<< HEAD
 /* line 114, ../sass/style.scss */
+=======
+/* line 129, ../sass/style.scss */
+>>>>>>> dealdetail
 h2 span {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* line 115, ../sass/style.scss */
+=======
+/* line 130, ../sass/style.scss */
+>>>>>>> dealdetail
 p {
   padding: 10px 0;
 }
 
+<<<<<<< HEAD
 /* line 117, ../sass/style.scss */
+=======
+/* line 132, ../sass/style.scss */
+>>>>>>> dealdetail
 blockquote {
   margin-left: 30px;
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* line 121, ../sass/style.scss */
+=======
+/* line 136, ../sass/style.scss */
+>>>>>>> dealdetail
 blockquote span {
   background-repeat: no-repeat;
   display: inline-block;
@@ -789,7 +916,11 @@ blockquote span {
   width: 29px;
 }
 
+<<<<<<< HEAD
 /* line 125, ../sass/style.scss */
+=======
+/* line 140, ../sass/style.scss */
+>>>>>>> dealdetail
 blockquote p {
   color: #993333;
   float: left;
@@ -798,47 +929,79 @@ blockquote p {
   width: 330px;
 }
 
+<<<<<<< HEAD
 /* line 130, ../sass/style.scss */
+=======
+/* line 145, ../sass/style.scss */
+>>>>>>> dealdetail
 span.quote-open {
   background-image: url("../images/quote-open.png");
   margin-right: 10px;
   float: left;
 }
 
+<<<<<<< HEAD
 /* line 136, ../sass/style.scss */
+=======
+/* line 151, ../sass/style.scss */
+>>>>>>> dealdetail
 span.quote-close {
   background-image: url("../images/quote-close.png");
   margin-left: 15px;
   margin-top: 27px;
 }
 
+<<<<<<< HEAD
 /* line 142, ../sass/style.scss */
+=======
+/* line 157, ../sass/style.scss */
+>>>>>>> dealdetail
 .maincontent, #tabs-1 {
   padding: 0 30px 30px;
 }
 
+<<<<<<< HEAD
 /* line 144, ../sass/style.scss */
+=======
+/* line 159, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 /* line 145, ../sass/style.scss */
+=======
+/* line 160, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div.firsttab {
   border-top: 1px solid #E4E7E9;
 }
 
+<<<<<<< HEAD
 /* line 146, ../sass/style.scss */
+=======
+/* line 161, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div {
   overflow: hidden;
   border-bottom: 1px solid #E4E7E9;
 }
+<<<<<<< HEAD
 /* line 148, ../sass/style.scss */
+=======
+/* line 163, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div ul li {
   float: left;
   margin: 15px 10px 10px 0;
   padding: 5px;
 }
+<<<<<<< HEAD
 /* line 151, ../sass/style.scss */
+=======
+/* line 166, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div ul li.first {
   background-image: url("../images/howitworks-sl.png");
   color: #FFFFFF;
@@ -849,14 +1012,22 @@ span.quote-close {
   width: 32px;
   border: none;
 }
+<<<<<<< HEAD
 /* line 161, ../sass/style.scss */
+=======
+/* line 176, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div ul li.second {
   display: block;
   font-family: helvetica;
   font-size: 20px;
   width: 117px;
 }
+<<<<<<< HEAD
 /* line 166, ../sass/style.scss */
+=======
+/* line 181, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div ul li.second span {
   display: block;
   font-family: helvetica;
@@ -864,18 +1035,30 @@ span.quote-close {
   font-weight: normal;
   padding-bottom: 7px;
 }
+<<<<<<< HEAD
 /* line 174, ../sass/style.scss */
+=======
+/* line 189, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div ul li.third {
   width: 99px;
   text-align: center;
 }
+<<<<<<< HEAD
 /* line 177, ../sass/style.scss */
+=======
+/* line 192, ../sass/style.scss */
+>>>>>>> dealdetail
 #howitworks div ul li.four {
   width: 245px;
   margin-right: 0;
 }
 
+<<<<<<< HEAD
 /* line 182, ../sass/style.scss */
+=======
+/* line 197, ../sass/style.scss */
+>>>>>>> dealdetail
 #commentform textarea {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -891,7 +1074,11 @@ span.quote-close {
   padding: 5px;
   margin: 10px 0;
 }
+<<<<<<< HEAD
 /* line 191, ../sass/style.scss */
+=======
+/* line 206, ../sass/style.scss */
+>>>>>>> dealdetail
 #commentform input.button {
   text-transform: capitalize;
   font-weight: bold;
@@ -924,7 +1111,11 @@ span.quote-close {
   padding: 6px 10px;
   border-width: 1px;
 }
+<<<<<<< HEAD
 /* line 194, ../sass/style.scss */
+=======
+/* line 209, ../sass/style.scss */
+>>>>>>> dealdetail
 #commentform input.button:hover {
   cursor: pointer;
 }
@@ -968,6 +1159,7 @@ span.quote-close {
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 204, ../sass/style.scss */
 .css-panes div.container_10 {
   display: block!important;
@@ -984,11 +1176,33 @@ span.quote-close {
 }
 /* line 215, ../sass/style.scss */
 .css-panes div div.dealprice {
+=======
+/* line 219, ../sass/style.scss */
+.css-panes div .grid_4, .css-panes div .grid_10 {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 223, ../sass/style.scss */
+.css-panes div .grid_4 {
+  padding-left: 10px;
+}
+/* line 226, ../sass/style.scss */
+.css-panes div .grid_7 {
+  padding: 0;
+}
+
+/* line 230, ../sass/style.scss */
+div.dealprice {
+>>>>>>> dealdetail
   display: block!important;
   padding: 10px 0!important;
 }
 
+<<<<<<< HEAD
 /* line 221, ../sass/style.scss */
+=======
+/* line 235, ../sass/style.scss */
+>>>>>>> dealdetail
 #alertbox {
   -webkit-border-radius: 8px 8px / 8px 8px;
   -moz-border-radius: 8px 8px / 8px 8px;
@@ -998,18 +1212,30 @@ span.quote-close {
   background: #8dc7c2 url(../images/alertboxbg.png) 98% 5px no-repeat;
   padding: 5px 10px;
 }
+<<<<<<< HEAD
 /* line 225, ../sass/style.scss */
+=======
+/* line 239, ../sass/style.scss */
+>>>>>>> dealdetail
 #alertbox p {
   font-size: 16px;
   padding-bottom: 5px;
   font-family: helvetica;
   color: #FFFFFF;
 }
+<<<<<<< HEAD
 /* line 230, ../sass/style.scss */
 #alertbox p span {
   font-weight: bold;
 }
 /* line 234, ../sass/style.scss */
+=======
+/* line 244, ../sass/style.scss */
+#alertbox p span {
+  font-weight: bold;
+}
+/* line 248, ../sass/style.scss */
+>>>>>>> dealdetail
 #alertbox input {
   border: 1px solid #54ADAA;
   -webkit-border-radius: 4px 4px / 4px 4px;
@@ -1021,7 +1247,11 @@ span.quote-close {
   padding: 5px;
   color: #666666;
 }
+<<<<<<< HEAD
 /* line 241, ../sass/style.scss */
+=======
+/* line 255, ../sass/style.scss */
+>>>>>>> dealdetail
 #alertbox input.button {
   width: 20px;
   text-transform: capitalize;
@@ -1055,7 +1285,11 @@ span.quote-close {
   padding: 5px 15px;
   border-width: 1px;
 }
+<<<<<<< HEAD
 /* line 247, ../sass/style.scss */
+=======
+/* line 261, ../sass/style.scss */
+>>>>>>> dealdetail
 #alertbox input.button:hover {
   cursor: pointer;
 }
@@ -1099,7 +1333,11 @@ span.quote-close {
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 257, ../sass/style.scss */
+=======
+/* line 271, ../sass/style.scss */
+>>>>>>> dealdetail
 .dealprice ul {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -1114,18 +1352,30 @@ span.quote-close {
   padding: 5px;
   margin: 0px;
 }
+<<<<<<< HEAD
 /* line 264, ../sass/style.scss */
+=======
+/* line 278, ../sass/style.scss */
+>>>>>>> dealdetail
 .dealprice ul li {
   width: 120px;
   float: left;
   text-align: center;
   border-right: 1px dotted #d5d7db;
 }
+<<<<<<< HEAD
 /* line 269, ../sass/style.scss */
 .dealprice ul li.last {
   border: none;
 }
 /* line 274, ../sass/style.scss */
+=======
+/* line 283, ../sass/style.scss */
+.dealprice ul li.last {
+  border: none;
+}
+/* line 288, ../sass/style.scss */
+>>>>>>> dealdetail
 .dealprice span.expireson {
   width: 125px;
   display: block;
@@ -1134,7 +1384,11 @@ span.quote-close {
   margin-top: 10px;
   background: url(../images/hourglass.jpg) 5px 2px no-repeat;
 }
+<<<<<<< HEAD
 /* line 282, ../sass/style.scss */
+=======
+/* line 296, ../sass/style.scss */
+>>>>>>> dealdetail
 .dealprice button {
   margin-top: 10px;
   float: right;
@@ -1170,7 +1424,11 @@ span.quote-close {
   padding: 6px 10px;
   border-width: 1px;
 }
+<<<<<<< HEAD
 /* line 288, ../sass/style.scss */
+=======
+/* line 302, ../sass/style.scss */
+>>>>>>> dealdetail
 .dealprice button:hover {
   cursor: pointer;
 }
@@ -1214,6 +1472,7 @@ span.quote-close {
   color: white;
 }
 
+<<<<<<< HEAD
 /**
  * Homepage
  */
@@ -1327,3 +1586,49 @@ span.quote-close {
   padding-top: 5px;
 }
 >>>>>>> eae17a1799e1daf26d5ce2e5b19562eeff12c871
+=======
+/* deal detail page */
+/* line 313, ../sass/style.scss */
+#dealdetail .grid_4, #dealdetail .grid_9 {
+  margin: 0;
+}
+/* line 316, ../sass/style.scss */
+#dealdetail .grid_4 {
+  text-align: center;
+}
+/* line 318, ../sass/style.scss */
+#dealdetail .grid_4 button {
+  margin-top: 15px;
+}
+/* line 322, ../sass/style.scss */
+#dealdetail .grid_4 a img {
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 328, ../sass/style.scss */
+#dealdetail .grid_4 a:hover {
+  text-decoration: none;
+}
+/* line 333, ../sass/style.scss */
+#dealdetail .dealprice ul {
+  width: 317px;
+  padding: 10px 0;
+}
+/* line 336, ../sass/style.scss */
+#dealdetail .dealprice ul li {
+  width: 105px;
+}
+
+/* line 342, ../sass/style.scss */
+p.userpic {
+  height: 42px;
+}
+/* line 344, ../sass/style.scss */
+p.userpic img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+>>>>>>> dealdetail

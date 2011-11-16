@@ -7,7 +7,6 @@ $h2color: #363D41;
 $textcolor: #666666;
 $button_bg: #A20000;
 $redcolor: #990000;
-$topbarcolor:#363D41;
 
 body {
   font-family: arialMT;
@@ -28,6 +27,7 @@ h1 {
   font-weight: normal;
   font-family: helvetica;
   color: $h1color;
+  line-height: 20px;
 }
 strong {
   font-weight: bold;
@@ -35,6 +35,12 @@ strong {
   &.red {
     color: $redcolor;
   }
+}
+hr.dotted {
+  border: none;
+  margin: 5px 0;
+  padding: 0;
+  border-bottom: 1px dotted #DBDBDB;
 }
 .verticleprefix {
   padding: 8px;
@@ -58,7 +64,7 @@ button {
   @include fancy-button-size(18px, 5px, 0px);
   @include fancy-button-colors($button_bg);
   @include fancy-button-padding(10px, 12px);
-}
+  }
 
 #merchantimg {
   padding: 0 8px 15px;
@@ -70,6 +76,15 @@ button {
   }
   .viewmap {
     background: url(../images/view-map.jpg) 5px $bgtop no-repeat;
+  }
+  .coupons {
+    background: url(../images/coupon.jpg) 5px $bgtop no-repeat;
+  }
+  .viewmapblack {
+    background: url(../images/view-map-black.jpg) 5px $bgtop no-repeat;
+  }
+  .hourglass {
+    background: url(../images/hourglass.jpg) 5px $bgtop no-repeat;
   }
   .mobileno {
     background: url(../images/mobile.jpg) 12px $bgtop no-repeat;
@@ -105,32 +120,28 @@ button {
 
 
 /*Sanjay*/
-h2{
-    color:$h2color;
-    font-size:18px;
-    font-family:helvetica;
-    margin:10px 0;
-  span{font-weight:bold;}
+h2{color:$h2color;
+font-size:18px;
+font-family:helvetica;
+margin:10px 0;
 }
 
+h2 span{font-weight:bold;}
 p{padding:10px 0;}
 
-blockquote{
-    margin-left: 30px;
+blockquote{margin-left: 30px;
     overflow: hidden;
-    span{
-    background-repeat: no-repeat;
+}
+
+blockquote span {background-repeat: no-repeat;
     display: inline-block;
     height: 23px;
-    width: 29px;
-    }
-    p{
-    color: #993333;
+    width: 29px;}
+blockquote p{   color: #993333;
     float: left;
     font-family: helvetica;
     font-size: 18px;
     width: 330px;}
-}
 span.quote-open {
     background-image: url("../images/quote-open.png");
     margin-right: 10px;
@@ -166,13 +177,13 @@ span.quote-close {
       display: block;
       font-family: helvetica;
       font-size: 20px;
-      width: 117px;
-      span{
-       display: block;
-       font-family: helvetica;
-       font-size: 30px;
-       font-weight: normal;
-       padding-bottom: 7px;
+       width: 117px;
+       span{
+        display: block;
+        font-family: helvetica;
+        font-size: 30px;
+        font-weight: normal;
+        padding-bottom: 7px;
       }
     }
     &.third {
@@ -205,9 +216,6 @@ span.quote-close {
 }
 
 .css-panes div {
-  &.container_10 {
-    display: block!important;
-    padding: 0!important;
     .grid_4, .grid_10 {
       padding: 0px;
       margin: 0px;
@@ -215,12 +223,14 @@ span.quote-close {
     .grid_4 {
       padding-left: 10px;
     }
+    .grid_7 {
+      padding: 0;
+    }
   }
   div.dealprice {
     display: block!important;
     padding: 10px 0!important;
   }
-}
 
 #alertbox {
   @include border-radius(8px 8px, 8px 8px);
@@ -298,46 +308,42 @@ span.quote-close {
   }
 }
 
-/**
- * Homepage
- */
-
-#container .topheader {
-    height:30px;
-    background: $topbarcolor;
-
-    header nav ul{
-      overflow:hidden;
-      margin:0;
-      li{
-        float:left;
-        height:30px;
-        line-height:30px;
-        list-style: none;
-        margin-left:20px;
-
-        a{
-          color: #AEB5BF;
-          font-family: Arial;
-          font-size: 13px;
-          padding: 0 5px;
-          display: block;
-          &:hover{
-           color: #FFF; 
-          }
-        }
+/* deal detail page */
+#dealdetail {
+  .grid_4, .grid_9 {
+    margin: 0;
+  }
+  .grid_4 {
+    text-align: center;
+    button {
+      margin-top: 10px;
+    }
+    a {
+      img {
+        margin-top: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &:hover {
+        text-decoration: none;
       }
     }
-}
-.set-deals-alert{
-  @include fancy-button-size(30px, 5px, 0px);
-  @include fancy-button-colors(blue);
-  @include fancy-button-padding(15px, 30px);
+  }
+  .dealprice ul {
+    width: 317px;
+    padding: 10px 0;
+    li {
+      width: 105px;
+    }
+  }
 }
 
-#header-logo{
-  background:#F1F2F3;
-  height:80px;
-  margin-bottom: 15px;
-  padding-top:5px;
+p.userpic {
+  height: 42px;
+  img {
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 10px;
+  }
 }
