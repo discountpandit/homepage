@@ -98,6 +98,7 @@ button {
   }
 }
 
+
 /*Sanjay*/
 h2{color:$h2color;
 font-size:18px;
@@ -166,7 +167,6 @@ span.quote-close {
   }
   li.third {width:99px;text-align: center;}
   li.four{width:245px;margin-right: 0;}
-
 #commentform {
   textarea {
     @include border-radius(5px 5px, 5px 5px);
