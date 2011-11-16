@@ -97,7 +97,7 @@
                   Write a Review for
                   %span Sangeetha Electronics Ltd.
                 %form{:action => "#", :id => "commentform", :method => "POST"}
-                  %textarea{:name => "comment", :value => "write a comment.."}
+                  %textarea{:name => "comment"} write a comment..
                   %br
                   %input{:type => "submit", :value => "Comment", :class => "button"}
               %div{:style => "display: none"}
@@ -111,23 +111,27 @@
                       %ul
                         %li
                           Original Value
+                          %br
                           %strong.red
                             %span.rupees Rs
                             1000
                         %li
                           Deal Price
+                          %br
                           %strong.red
                             %span.rupees Rs
                             1000
-                        %li
+                        %li.last
                           You Save
+                          %br
                           %strong.red
                             %span.rupees Rs
                             1000
-                       %span.expireson
-                         Deal expires on
-                         %strong 22 November 2011
-                       %button Go to Deal
+                      %span.expireson
+                        Deal expires on
+                        %br
+                        %strong 22 November 2011
+                      %button Go to Deal
 
               %div{:style => "display: none"}
                 %p Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed
