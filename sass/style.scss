@@ -142,30 +142,35 @@ span.quote-close {
   ul li{float: left;
     margin: 15px 10px 10px 0;
     padding: 5px;
-  }
-  li.first{    background-image: url("../images/howitworks-sl.png");
-    color: #FFFFFF;
-    font-size: 18px;
-    height: 25px;
-    padding: 6px 0;
-    text-align: center;
-    width: 32px;
-    border:none;
-  }
-  li.second{
-    display: block;
-    font-family: helvetica;
-    font-size: 20px;
-     width: 117px;
-  }
-  li.second span{    display: block;
-    font-family: helvetica;
-    font-size: 30px;
-    font-weight: normal;
-    padding-bottom: 7px;
-  }
-  li.third {width:99px;text-align: center;}
-  li.four{width:245px;margin-right: 0;}
+    &.first{    
+      background-image: url("../images/howitworks-sl.png");
+      color: #FFFFFF;
+      font-size: 18px;
+      height: 25px;
+      padding: 6px 0;
+      text-align: center;
+      width: 32px;
+      border:none;
+    }
+    &.second{
+      display: block;
+      font-family: helvetica;
+      font-size: 20px;
+       width: 117px;
+       span{    
+        display: block;
+        font-family: helvetica;
+        font-size: 30px;
+        font-weight: normal;
+        padding-bottom: 7px;
+      }
+    }
+    &.third {
+      width:99px;text-align: center;
+    }
+    &.four{width:245px;margin-right: 0;}
+  }  
+}
 
 #commentform {
   textarea {
