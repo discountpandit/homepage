@@ -15,13 +15,16 @@
 
     <link href='stylesheets/grid.css?v=1' media='all' rel='stylesheet' />
     <link href='stylesheets/text.css?v=1' media='all' rel='stylesheet' />
+    <link href='stylesheets/style.css?v=1' media='all' rel='stylesheet' />
+
     <script src='js/modernizr.min.js'></script>
     <script src='js/respond.min.js'></script>
   </head>
   <body>
-    <div id='container' class="container_16">
-      <header>
-        <nav>
+    <div id='container' class="">
+    <div class="topheader">
+      <header class="container_24">
+        <nav class="push_9 grid_14">
           <ul>
             <li><a href="#" title="">Home</a></li>
             <li><a href="#" title="">What is DiscountPandit</a></li>
@@ -30,29 +33,36 @@
             <li><a href="#" title="">Alert Results</a></li>
           </ul>
         </nav>
+      </div>
+      <div id="header-logo">
+        <div id="" class="container_24">
+          <div class="grid_9 main-logo">
+          <a href="#" title=""><img src="images/logo.png" alt="DiscountPandit" /></a>
+        </div>
 
+        <div class="grid_7 change-location">
+          <span>Change Country</span>  
+          <select name="country" >
+            <option value="india">India</option>
+          </select>
+          <img src="images/india-flag.jpg" alt="">
+        </div>
+        
+        <div class="grid_8 login-sign-up">
+          <a href="">FConnect</a>
+          <a href="">Login</a>|
+          <a href="">Sign Up</a>
+          <a href="" title="">Do i need to sign up?</a>
+        </div>    
+        </div><!-- / -->
+        
+      </div><!-- / header-logo-->
 
-          <div class="grid_4 main-logo">
-            <img src="images/logo.png" alt="DiscountPandit" />
-          </div>
-
-          <div class="grid_6 change-location">
-            <span>Change Country</span>  
-            <select name="country" >
-              <option value="india">India</option>
-            </select>
-            <img src="images/india-flag.jpg" alt="">
-          </div>
-          
-          <div class="grid_6 login-sign-up">
-            <a href="">FConnect</a>
-            <a href="">Login</a>|
-            <a href="">Sign Up</a>
-            <a href="" title="">Do i need to sign up?</a>
-          </div>
-          <div style="clear:both"></div>
-
-          <div class="grid_11 select-location">
+      </header>
+      
+    <div style="clear:both"></div>
+      <div id="main-content" class="container_24">
+        <div class="grid_17 select-location">
             <ul id="" class="">
               <li><input type="text" name="city" value="Bangalore" placeholder="Bangalore" /><span>City</span></li>
               <li><input type="text" name="location" value="Indiranagar" placeholder="Indiranagar" /><span>Location</span></li>
@@ -60,20 +70,20 @@
             </ul><!-- / End of Select Location -->
           </div>
 
-          <div class="grid_5 set-deal-alert">
-            <a href="#" title="">Set a Deal Alert</a>
+          <div class="grid_7 set-deal-alert">
+            <a href="#" title="" class="set-deals-alert">Set a Deal Alert</a>
           </div>
 
-          <div class="grid_11 top-five-deals">
+          <div class="grid_18 top-five-deals">
            
           </div>
 
-          <div class="grid_5 banner-top">
+          <div class="grid_6 banner-top">
 
             
           </div>
 
-          <div class="grid_11 popular-search">
+          <div class="grid_18 popular-search">
 
           <h3>Popular Searches <span>in Bangalore</span></h3>
 
@@ -119,15 +129,11 @@
             
           </div>
 
-          <div class="grid_5 bottom-right-banner">
+          <div class="grid_6 bottom-right-banner">
             <img src="images/right-top-banner.jpg" alt="">
           </div>
-
-         
-
-
-
-      </header>
+      </div><!-- / -->
+        
       <div id='main' role='main'></div>
       <footer></footer>
     </div>
