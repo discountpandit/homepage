@@ -1,5 +1,6 @@
 @import "fancy-buttons";
 $anchorcolor: #CC0000;
+$topbarcolor: #363D41;
 $h1color: #CC0000;
 $h2color: #363D41;
 
@@ -79,7 +80,49 @@ span.quote-close {
     margin-top: 27px;
 } 
 
+/**
+ * Homepage
+ */
 
+#container .topheader {
+    height:30px;
+    background: $topbarcolor;
+
+    header nav ul{
+      overflow:hidden;
+      margin:0;
+      li{
+        float:left;
+        height:30px;
+        line-height:30px;
+        list-style: none;
+        margin-left:20px;
+
+        a{
+          color: #AEB5BF;
+          font-family: Arial;
+          font-size: 13px;
+          padding: 0 5px;
+          display: block;
+          &:hover{
+           color: #FFF; 
+          }
+        }
+      }
+    }
+}
+.set-deals-alert{
+  @include fancy-button-size(30px, 5px, 0px);
+  @include fancy-button-colors(blue);
+  @include fancy-button-padding(15px, 30px);
+}
+
+#header-logo{
+  background:#F1F2F3;
+  height:80px;
+  margin-bottom: 15px;
+  padding-top:5px;
+}
 #merchantimg {
   padding: 0 8px 15px;
 }
