@@ -24,6 +24,7 @@
     -# CSS: implied media="all"
     %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
     %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/tabs.css?v=1", :media => "all", :rel => "stylesheet" }/
 
     -# All JavaScript at the bottom, except for Modernizr and Respond.
     -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
@@ -51,21 +52,134 @@
             %h1 sangeetha stores, indiranagar
             %ul#merchantdetails
               %li.viewmap
-                %p address of the merchant goes here<br /><a href="#">view map</a>
+                %p
+                  address of the merchant goes here
+                  %br
+                  %a{:href => "#"} view map
               %li.mobileno
-                %p Get in touch with <strong>Rakesh Rakesh</strong><br />9180234567, 9180234567,<br /><span class="website">www.discountpandit.com</span><span class="twittersmall">http://twitter.com/discountpandit</span><span class="facebooksmall">http://fb.com/discountpandit</span>
+                %p
+                  Get in touch with
+                  %strong Rakesh Rakesh
+                  %br
+                  9180234567, 9180234567,
+                  %br
+                  %span.website www.discountpandit.com
+                  %span.twittersmall http://twitter.com/discountpandit
+                  %span.facebooksmall http://fb.com/discountpandit
               %li.report
-                %p <a href="#">Report an error on this Deal</a>
+                %p
+                  %a{:href => "#"}Report an error on this Deal
               %li.claimlisting
-                %p <a href="#">Claim Listing</a>
+                %p
+                  %a{:href => "#"}Claim Listing
+        .container_24
+          .verticleprefix &nbsp;
+          .grid_15
+            %ul.css-tabs
+              %li
+                %a{:href => "#", :class => "current"} More info
+              %li
+                %a{:href => "#"} Deals
+              %li
+                %a{:href => "#"} Photos
+              %li
+                %a{:href => "#"} Reviews
+            .css-panes
+              %div{:style => "display: block"}
+                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                %p Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas
+                %p
+                  %strong Customer One
+                  %br
+                  %span Joined two months ago
+                %p Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas
+                %h2
+                  Write a Review for
+                  %span Sangeetha Electronics Ltd.
+                %form{:action => "#", :id => "commentform", :method => "POST"}
+                  %textarea{:name => "comment"} write a comment..
+                  %br
+                  %input{:type => "submit", :value => "Comment", :class => "button"}
+              %div{:style => "display: none"}
+                %h2 Deals for Sangeetha Electronics Ltd.
+                .container_10
+                  .grid_4
+                    image goes here
+                  .grid_10
+                    %h6 title of the deal goes here
+                    %div.dealprice
+                      %ul
+                        %li
+                          Original Value
+                          %br
+                          %strong.red
+                            %span.rupees Rs
+                            1000
+                        %li
+                          Deal Price
+                          %br
+                          %strong.red
+                            %span.rupees Rs
+                            1000
+                        %li.last
+                          You Save
+                          %br
+                          %strong.red
+                            %span.rupees Rs
+                            1000
+                      %span.expireson
+                        Deal expires on
+                        %br
+                        %strong 22 November 2011
+                      %button Go to Deal
+
+              %div{:style => "display: none"}
+                %p Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed
+                %p In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam
+              %div{:style => "display: none"}
+                %p Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed
+                %p In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam
+          .grid_8.prefix_1
+            %div.block
+              %h2
+                %span Tags
+                on Sangetha Electronice Ltd
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+            %div.block#alertbox
+              %p
+                Get
+                %span Daily Deal Alerts
+                by
+                %br
+                email for Bangalore
+              %form{:action => "#", :method => "POST"}
+                %input{:type => "textbox", :value => "enter email address", :name => "emailid"}
+                %input{:type => "submit", :value => "Go", :name => "go", :class => "button"}
       %footer
 
     -#
       Javascript at the bottom for fast page loading
       Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
-    %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+    %script{ :src => "http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js" }
     :javascript
-      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>");
+      $(function() {
+        // :first selector is optional if you have only one tabs on the page
+        $(".css-tabs:first").tabs(".css-panes:first > div");
+      });
 
     %script{ :src => "js/plugins.js?v=1" }
     %script{ :src => "js/script.js?v=1" }
