@@ -1,0 +1,115 @@
+!!! 5
+-# paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+%html.no-js{ :lang => "en" }
+  <!--<![endif]-->
+  %head
+    %meta{ :charset => "utf-8" }/
+    
+    -# Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    -# Remove this if you use the .htaccess
+    %meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }/
+    
+    %title
+    %meta{ :name => "description", :content => "" }/
+    %meta{ :name => "author", :content => "" }/
+    
+    -# Mobile viewport optimized: j.mp/bplateviewport
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }/
+    
+    -# Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
+    
+    -# CSS: implied media="all"
+    %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+
+    
+    -# All JavaScript at the bottom, except for Modernizr and Respond.
+    -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+    %script{ :src => "js/modernizr.min.js" }
+    %script{ :src => "js/respond.min.js" }
+    %script{ :src => "javascripts/jquery.min.js" }
+
+  %body
+    #container.container_24
+      %header
+    #container.container_24
+      .grid_16
+        %h1 How It Works
+        %p DiscountPandit: Your guide to finding the best deals in town!
+        
+        .maincontent#howitworks
+          %div.firsttab
+            %ul
+              %li.first 1
+              %li.second
+                %span Search
+                for deals
+              %li.third
+                %img{ :src => "./images/search-big.png" }
+              %li.four Get to know about the best deals in your neighborhood. Daily deal sites, group buying sites, newspapers, hoardings, print ads, radio ads… if there is a deal happening anywhere in your city, rest assured you can find it on DiscountPandit !
+          %div
+            %ul
+              %li.first 2
+              %li.second
+                %span Set
+                deal alerts
+              %li.third
+                %img{ :src => "./images/deal-alert.png" }
+              %li.four Set alerts to personalize your experience. Tailor your homepage as per your requirements and see only what YOU want to see. You can easily add, delete and modify your Deal Alerts.
+          %div
+            %ul
+              %li.first 3
+              %li.second
+                %span Select
+                your deals
+              %li.third
+                %img{ :src => "./images/your-deal.png" }
+              %li.four Choose from the choicest collection of deals. Once you select a deal, you will be directed to the deal source site. You no longer have to visit each deal site individually to find the best deal. We will do it for you.
+          %div
+            %ul
+              %li.first 4
+              %li.second
+                %span Follow
+                your 
+                %strong favorite 
+                %br merchants
+              %li.third
+                %img{ :src => "./images/favorite-deal.png" }
+              %li.four Get regular updates on your favorite merchants. Keep a tab on their latest deals, discounts and offers. Participate in exclusive fan contests and win attractive goodies.
+          %div
+            %ul
+              %li.first 5
+              %li.second
+                %span Filter
+                your search
+              %li.third
+                %img{ :src => "./images/Filter-deal.png" }
+              %li.four Use our filters to drill down to the exact deal you were looking for. Even if you are looking for a deal in a Chinese Restaurant within 2 kms of your house, serving beer, having Valet Parking and so on… we will find something for you!
+               
+      .grid_8
+        .sidebar
+          %img{ :src => "./images/add1.jpg" }
+          %img{ :src => "./images/right-top-banner.jpg" }
+      %footer
+      
+    -# 
+      Javascript at the bottom for fast page loading
+      Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+    %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+    :javascript
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
+    
+    %script{ :src => "js/plugins.js?v=1" }
+    %script{ :src => "js/script.js?v=1" }
+    
+    -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+    -#  change the UA-XXXXX-X to be your site's ID
+    :javascript
+      var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+      s.parentNode.insertBefore(g,s)}(document,"script"));
