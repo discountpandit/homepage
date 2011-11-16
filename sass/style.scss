@@ -6,6 +6,7 @@ $h1color: #CC0000;
 $h2color: #363D41;
 $textcolor: #666666;
 $button_bg: #A20000;
+$redcolor: #990000;
 
 body {
   font-family: arialMT;
@@ -29,7 +30,10 @@ h1 {
 }
 strong {
   font-weight: bold;
-  color: #666666;
+  color: $textcolor;
+  &.red {
+    color: $redcolor;
+  }
 }
 .verticleprefix {
   padding: 8px;
@@ -195,17 +199,24 @@ span.quote-close {
     }
 }
 
-.css-panes div.container_10 {
-  display: block!important;
-  padding: 0!important;
-  .grid_4, .grid_10 {
-    padding: 0px;
-    margin: 0px;
+.css-panes div {
+  &.container_10 {
+    display: block!important;
+    padding: 0!important;
+    .grid_4, .grid_10 {
+      padding: 0px;
+      margin: 0px;
+    }
+    .grid_4 {
+      padding-left: 10px;
+    }
   }
-  .grid_4 {
-    padding-left: 10px;
+  div.dealprice {
+    display: block!important;
+    padding: 10px 0!important;
   }
 }
+
 #alertbox {
   @include border-radius(8px 8px, 8px 8px);
   background: #8DC7C2 url(../images/alertboxbg.png) 98% 5px no-repeat;
@@ -245,8 +256,39 @@ span.quote-close {
   ul {
     @include border-radius(5px 5px, 5px 5px);
     @include box-shadow();
+    width: 362px;
+    height: 32px;
+    padding: 5px;
+    margin: 0px;
     li {
+      width: 120px;
       float: left;
+      text-align: center;
+      border-right: 1px dotted #d5d7db;
+      &.last {
+        border: none;
+      }
     }
+  }
+  span.expireson {
+    width: 125px;
+    display: block;
+    padding-left: 30px;
+    float: left;
+    margin-top: 10px;
+    background: url(../images/hourglass.jpg) 5px 2px no-repeat;
+  }
+  button {
+    margin-top: 10px;
+    float: right;
+    margin-right: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    &:hover {
+       cursor: pointer;
+    }
+      @include fancy-button-size(14px, 5px, 0px);
+      @include fancy-button-colors($button_bg);
+      @include fancy-button-padding(6px, 10px);
   }
 }
