@@ -220,6 +220,23 @@ ul#brand{float:right;
 }
 a#brandbutton button{padding:10px 30px;}
 
+#usercontent div{
+    margin: 0;
+    padding: 15px 6px;
+    .grid_5 label{
+      display:block;
+      color:#353D40;
+    }
+    .grid_5 input{
+      display:block;
+      @include border-radius(5px 5px, 5px 5px);
+      @include box-shadow();
+      margin: 7px 0;
+      color:#79838D;
+    }
+}
+
+
 
 
 #commentform {
