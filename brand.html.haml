@@ -1,0 +1,190 @@
+!!! 5
+-# paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+%html.no-js{ :lang => "en" }
+  <!--<![endif]-->
+  %head
+    %meta{ :charset => "utf-8" }/
+
+    -# Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    -# Remove this if you use the .htaccess
+    %meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }/
+
+    %title
+    %meta{ :name => "description", :content => "" }/
+    %meta{ :name => "author", :content => "" }/
+
+    -# Mobile viewport optimized: j.mp/bplateviewport
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }/
+
+    -# Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
+    -# CSS: implied media="all"
+    %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/tabs.css?v=1", :media => "all", :rel => "stylesheet" }/
+
+    -# All JavaScript at the bottom, except for Modernizr and Respond.
+    -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+    %script{ :src => "js/modernizr.min.js" }
+    %script{ :src => "js/respond.min.js" }
+
+  %body
+    .container_24
+      %header
+        .container_24
+          .grid_24.breadcrumb
+            %a{:href => "#"} home
+            %span.separator >
+            %a{:href => "#"} bangalore
+            %span.separator >
+            %a{:href => "#"} indiranagar
+            %span.separator >
+            %strong restaurant deals
+        .container_24
+          .grid_6
+            %img{:id => "merchantimg", :src => "images/merchant.jpg"}
+            %a{:href => "#", :id => "brandbutton"}
+              %button follow Brand
+            %br 20 people following this merchant
+          .grid_18
+            %ul#brand
+              %li.report
+                %a{:href => "#"}Report an error on this Deal
+              %li.claimlisting
+                %a{:href => "#"}Claim Listing
+            %h1 sangeetha stores, indiranagar
+            %p The Fine PrintOffer includes buy onea get one offer on buffetTaxes includedOne voucher valid for two peopleSharing not allowedCan purchase multiple vouchers for giftingRedeem the voucher in a single visitPrior appointment mandatory (Call 8892207889)Carry the printout/SMS/email of the voucher to the outletCannot be combined with other existing offersCannot be redeemed with cashTiming: 11 am to 11 pm (Open 7 days a week)Images are for representation purpose only.
+            The Fine PrintOffer includes buy onea get one offer on buffetTaxes includedOne voucher valid for two peopleSharing not allowedCan purchase multiple vouchers for giftingRedeem the voucher in a single visitPrior
+            %P
+              %a{:href => "#"}Read more on “Brand name” on wikipedia
+            %span.website www.discountpandit.com
+            %span.twittersmall http://twitter.com/discountpandit
+            %span.facebooksmall http://fb.com/discountpandit
+              
+        .container_24
+          .verticleprefix &nbsp;
+          .grid_15
+            %ul.css-tabs
+              %li
+                %a{:href => "#", :class => "current"} All Deals
+              %li
+                %a{:href => "#"} Stores near me
+              %li
+                %a{:href => "#"} Photos
+              %li
+                %a{:href => "#"} Reviews
+            .css-panes
+              %div{:style => "display: none"}
+                %h2 Deals for Sangeetha Electronics Ltd.
+                .container_10
+                  .grid_4
+                    image goes here
+                  .grid_10
+                    %h6 title of the deal goes here
+                    %div.dealprice
+                      %ul
+                        %li
+                          Original Value
+                          %br
+                          %strong.red
+                            %span.rupees Rs
+                            1000
+                        %li
+                          Deal Price
+                          %br
+                          %strong.red
+                            %span.rupees Rs
+                            1000
+                        %li.last
+                          You Save
+                          %br
+                          %strong.red
+                            %span.rupees Rs
+                            1000
+                      %span.expireson
+                        Deal expires on
+                        %br
+                        %strong 22 November 2011
+                      %button Go to Deal
+
+              %div{:style => "display: none"}
+                %p Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed
+                %p In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam
+              %div{:style => "display: none"}
+                %p Maecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed
+                %p In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam
+              %div{:style => "display: block"}
+                %p
+                  %strong Customer One
+                  %br
+                  %span Joined two months ago
+                %p Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas
+                %p
+                  %strong Customer One
+                  %br
+                  %span Joined two months ago
+                %p Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas
+                %h2
+                  Write a Review for
+                  %span Sangeetha Electronics Ltd.
+                %form{:action => "#", :id => "commentform", :method => "POST"}
+                  %textarea{:name => "comment"} write a comment..
+                  %br
+                  %input{:type => "submit", :value => "Comment", :class => "button"}
+          .grid_8.prefix_1
+            %div.block
+              %h2
+                %span Tags
+                on Brand name
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+              %a{:href => "#"} Restaurants in bangalore
+              %span.pipe &#124;
+            %div.block#alertbox
+              %p
+                Get
+                %span Daily Deal Alerts
+                by
+                %br
+                email for Bangalore
+              %form{:action => "#", :method => "POST"}
+                %input{:type => "textbox", :value => "enter email address", :name => "emailid"}
+                %input{:type => "submit", :value => "Go", :name => "go", :class => "button"}
+            %div.block
+              %img{ :src => "./images/add1.jpg" }
+      %footer
+
+    -#
+      Javascript at the bottom for fast page loading
+      Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+    %script{ :src => "http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js" }
+    :javascript
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>");
+      $(function() {
+        // :first selector is optional if you have only one tabs on the page
+        $(".css-tabs:first").tabs(".css-panes:first > div");
+      });
+
+    %script{ :src => "js/plugins.js?v=1" }
+    %script{ :src => "js/script.js?v=1" }
+
+    -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+    -#  change the UA-XXXXX-X to be your site's ID
+    :javascript
+      var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+      s.parentNode.insertBefore(g,s)}(document,"script"));

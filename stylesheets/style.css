@@ -1,568 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* incase an inverted custom gradient isn't specified */
-/* line 177, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 177, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class {
   font-family: "Lucida Grande", Lucida, Arial, sans-serif;
-  background: url('/images/button_bg.png?1321354194') repeat-x bottom left;
-  margin: 0;
-  width: auto;
-  overflow: visible;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  border-style: solid;
-  font-weight: bold;
-}
-/* line 165, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-/* line 168, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class:focus {
-  outline: none;
-}
-
-/* line 10, ../sass/style.scss */
-body {
-  font-family: arialMT;
-  font-size: 12px;
-  color: #666666;
-  line-height: 16px;
-}
-
-/* line 16, ../sass/style.scss */
-a {
-  color: #cc0000;
-  text-decoration: none;
-}
-/* line 19, ../sass/style.scss */
-a:hover {
-  text-decoration: underline;
-}
-
-/* line 23, ../sass/style.scss */
-h1 {
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: normal;
-  font-family: helvetica;
-  color: #cc0000;
-}
-
-/* line 30, ../sass/style.scss */
-strong {
-  font-weight: bold;
-  color: #666666;
-}
-
-/* line 34, ../sass/style.scss */
-.verticleprefix {
-  padding: 8px;
-}
-
-/* line 37, ../sass/style.scss */
-.breadcrumb {
-  font-size: 11px;
-  padding: 15px 0;
-}
-/* line 40, ../sass/style.scss */
-.breadcrumb .separator {
-  font-size: 10px;
-}
-
-/* line 44, ../sass/style.scss */
-.block {
-  margin: 15px 0;
-}
-
-/* line 47, ../sass/style.scss */
-button {
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 18px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: #a20000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4b4b), color-stop(10%, #ef0000), color-stop(50%, #930000), color-stop(50%, #830000), color-stop(100%, #b60000));
-  background-image: -webkit-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -moz-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -o-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -ms-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  border-color: #550000;
-  text-shadow: #220000 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 10px 12px;
-  border-width: 1px;
-}
-/* line 50, ../sass/style.scss */
-button:hover {
-  cursor: pointer;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button, button:visited {
-  color: white;
-}
-/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:hover, button:focus {
-  background-color: #930000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
-  background-image: -webkit-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -moz-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -o-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -ms-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  border-color: #460000;
-  text-shadow: #130000 0px 1px 1px;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:hover, button:hover:visited, button:focus, button:focus:visited {
-  color: white;
-}
-/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:active {
-  background-color: #830000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
-  background-image: -webkit-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -moz-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -o-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -ms-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  border-color: #370000;
-  text-shadow: #040000 0px -1px -1px;
-  -webkit-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  box-shadow: #550000 0 0.08em 0.2em 1px inset;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:active, button:active:visited {
-  color: white;
-}
-
-/* line 58, ../sass/style.scss */
-#merchantimg {
-  padding: 0 8px 15px;
-}
-
-/* line 63, ../sass/style.scss */
-#merchantdetails p {
-  padding: 10px 0px 10px 50px;
-}
-/* line 66, ../sass/style.scss */
-#merchantdetails .viewmap {
-  background: url(../images/view-map.jpg) 5px 12px no-repeat;
-}
-/* line 69, ../sass/style.scss */
-#merchantdetails .mobileno {
-  background: url(../images/mobile.jpg) 12px 12px no-repeat;
-  min-height: 60px;
-}
-/* line 72, ../sass/style.scss */
-#merchantdetails .mobileno strong {
-  color: #000000;
-}
-/* line 75, ../sass/style.scss */
-#merchantdetails .mobileno span {
-  float: left;
-  display: block;
-  padding: 5px 5px 5px 0;
-}
-/* line 83, ../sass/style.scss */
-#merchantdetails .mobileno span.twittersmall {
-  background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-}
-/* line 87, ../sass/style.scss */
-#merchantdetails .mobileno span.facebooksmall {
-  background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-}
-/* line 93, ../sass/style.scss */
-#merchantdetails .report {
-  background: url(../images/report.jpg) 10px 12px no-repeat;
-}
-/* line 96, ../sass/style.scss */
-#merchantdetails .claimlisting {
-  background: url(../images/claim-listing.jpg) 8px 12px no-repeat;
-}
-
-/*Sanjay*/
-/* line 103, ../sass/style.scss */
-h2 {
-  color: #363d41;
-  font-size: 18px;
-  font-family: helvetica;
-  margin: 10px 0;
-}
-/* line 108, ../sass/style.scss */
-h2 span {
-  font-weight: bold;
-}
-
-/* line 111, ../sass/style.scss */
-p {
-  padding: 10px 0;
-}
-
-/* line 113, ../sass/style.scss */
-blockquote {
-  margin-left: 30px;
-  overflow: hidden;
-}
-/* line 116, ../sass/style.scss */
-blockquote span {
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 23px;
-  width: 29px;
-}
-/* line 122, ../sass/style.scss */
-blockquote p {
-  color: #993333;
-  float: left;
-  font-family: helvetica;
-  font-size: 18px;
-  width: 330px;
-}
-
-/* line 129, ../sass/style.scss */
-span.quote-open {
-  background-image: url("../images/quote-open.png");
-  margin-right: 10px;
-  float: left;
-}
-
-/* line 135, ../sass/style.scss */
-span.quote-close {
-  background-image: url("../images/quote-close.png");
-  margin-left: 15px;
-  margin-top: 27px;
-}
-
-/* line 141, ../sass/style.scss */
-.maincontent, #tabs-1 {
-  padding: 0 30px 30px;
-}
-
-/* line 143, ../sass/style.scss */
-#howitworks {
-  margin-top: 20px;
-}
-
-/* line 144, ../sass/style.scss */
-#howitworks div.firsttab {
-  border-top: 1px solid #E4E7E9;
-}
-
-/* line 145, ../sass/style.scss */
-#howitworks div {
-  overflow: hidden;
-  border-bottom: 1px solid #E4E7E9;
-}
-/* line 147, ../sass/style.scss */
-#howitworks div ul li {
-  float: left;
-  margin: 15px 10px 10px 0;
-  padding: 5px;
-}
-/* line 150, ../sass/style.scss */
-#howitworks div ul li.first {
-  background-image: url("../images/howitworks-sl.png");
-  color: #FFFFFF;
-  font-size: 18px;
-  height: 25px;
-  padding: 6px 0;
-  text-align: center;
-  width: 32px;
-  border: none;
-}
-/* line 160, ../sass/style.scss */
-#howitworks div ul li.second {
-  display: block;
-  font-family: helvetica;
-  font-size: 20px;
-  width: 117px;
-}
-/* line 165, ../sass/style.scss */
-#howitworks div ul li.second span {
-  display: block;
-  font-family: helvetica;
-  font-size: 30px;
-  font-weight: normal;
-  padding-bottom: 7px;
-}
-/* line 173, ../sass/style.scss */
-#howitworks div ul li.third {
-  width: 99px;
-  text-align: center;
-}
-/* line 176, ../sass/style.scss */
-#howitworks div ul li.four {
-  width: 245px;
-  margin-right: 0;
-}
-
-/* line 181, ../sass/style.scss */
-#commentform textarea {
-  -webkit-border-radius: 5px 5px / 5px 5px;
-  -moz-border-radius: 5px 5px / 5px 5px;
-  -ms-border-radius: 5px 5px / 5px 5px;
-  -o-border-radius: 5px 5px / 5px 5px;
-  border-radius: 5px 5px / 5px 5px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  border: 1px solid #EBEBEB;
-  width: 100%;
-  min-height: 85px;
-  padding: 5px;
-  margin: 10px 0;
-}
-/* line 190, ../sass/style.scss */
-#commentform input.button {
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 14px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: #a20000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4b4b), color-stop(10%, #ef0000), color-stop(50%, #930000), color-stop(50%, #830000), color-stop(100%, #b60000));
-  background-image: -webkit-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -moz-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -o-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -ms-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  border-color: #550000;
-  text-shadow: #220000 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 6px 10px;
-  border-width: 1px;
-}
-/* line 193, ../sass/style.scss */
-#commentform input.button:hover {
-  cursor: pointer;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button, #commentform input.button:visited {
-  color: white;
-}
-/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:hover, #commentform input.button:focus {
-  background-color: #930000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
-  background-image: -webkit-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -moz-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -o-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -ms-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  border-color: #460000;
-  text-shadow: #130000 0px 1px 1px;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:hover, #commentform input.button:hover:visited, #commentform input.button:focus, #commentform input.button:focus:visited {
-  color: white;
-}
-/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:active {
-  background-color: #830000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
-  background-image: -webkit-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -moz-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -o-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -ms-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  border-color: #370000;
-  text-shadow: #040000 0px -1px -1px;
-  -webkit-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  box-shadow: #550000 0 0.08em 0.2em 1px inset;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:active, #commentform input.button:active:visited {
-  color: white;
-}
-
-/* line 202, ../sass/style.scss */
-.css-panes div.container_10 {
-  display: block!important;
-  padding: 0!important;
-}
-/* line 205, ../sass/style.scss */
-.css-panes div.container_10 .grid_4, .css-panes div.container_10 .grid_10 {
-  padding: 0px;
-  margin: 0px;
-}
-/* line 209, ../sass/style.scss */
-.css-panes div.container_10 .grid_4 {
-  padding-left: 10px;
-}
-
-/* line 213, ../sass/style.scss */
-#alertbox {
-  -webkit-border-radius: 8px 8px / 8px 8px;
-  -moz-border-radius: 8px 8px / 8px 8px;
-  -ms-border-radius: 8px 8px / 8px 8px;
-  -o-border-radius: 8px 8px / 8px 8px;
-  border-radius: 8px 8px / 8px 8px;
-  background: #8dc7c2 url(../images/alertboxbg.png) 98% 5px no-repeat;
-  padding: 5px 10px;
-}
-/* line 217, ../sass/style.scss */
-#alertbox p {
-  font-size: 16px;
-  padding-bottom: 5px;
-  font-family: helvetica;
-  color: #FFFFFF;
-}
-/* line 222, ../sass/style.scss */
-#alertbox p span {
-  font-weight: bold;
-}
-/* line 226, ../sass/style.scss */
-#alertbox input {
-  border: 1px solid #54ADAA;
-  -webkit-border-radius: 4px 4px / 4px 4px;
-  -moz-border-radius: 4px 4px / 4px 4px;
-  -ms-border-radius: 4px 4px / 4px 4px;
-  -o-border-radius: 4px 4px / 4px 4px;
-  border-radius: 4px 4px / 4px 4px;
-  width: 140px;
-  padding: 5px;
-  color: #666666;
-}
-/* line 233, ../sass/style.scss */
-#alertbox input.button {
-  width: 20px;
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  font-size: 14px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 1px;
-  background-color: #0dcdcb;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a4dfde), color-stop(10%, #60c7c6), color-stop(50%, #359695), color-stop(50%, #318a8a), color-stop(100%, #3eb0af));
-  background-image: -webkit-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: -moz-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: -o-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: -ms-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  border-color: #256968;
-  text-shadow: #065554 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.427) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.427) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.427) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 5px 15px;
-  border-width: 1px;
-}
-/* line 239, ../sass/style.scss */
-#alertbox input.button:hover {
-  cursor: pointer;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button, #alertbox input.button:visited {
-  color: white;
-}
-/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:hover, #alertbox input.button:focus {
-  background-color: #0cbebd;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #98dbda), color-stop(10%, #55c3c2), color-stop(50%, #318a8a), color-stop(50%, #2d7f7e), color-stop(100%, #3aa5a4));
-  background-image: -webkit-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: -moz-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: -o-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: -ms-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  border-color: #215d5d;
-  text-shadow: #054746 0px 1px 1px;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:hover, #alertbox input.button:hover:visited, #alertbox input.button:focus, #alertbox input.button:focus:visited {
-  color: white;
-}
-/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:active {
-  background-color: #0cb0ae;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #318a8a), color-stop(30%, #349291), color-stop(50%, #2e8382), color-stop(50%, #2a7877), color-stop(100%, #3ca9a7));
-  background-image: -webkit-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: -moz-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: -o-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: -ms-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  border-color: #1d5251;
-  text-shadow: #043838 0px -1px -1px;
-  -webkit-box-shadow: #256968 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #256968 0 0.08em 0.2em 1px inset;
-  box-shadow: #256968 0 0.08em 0.2em 1px inset;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:active, #alertbox input.button:active:visited {
-  color: white;
-}
-
-/* line 249, ../sass/style.scss */
-.dealprice ul {
-  -webkit-border-radius: 5px 5px / 5px 5px;
-  -moz-border-radius: 5px 5px / 5px 5px;
-  -ms-border-radius: 5px 5px / 5px 5px;
-  -o-border-radius: 5px 5px / 5px 5px;
-  border-radius: 5px 5px / 5px 5px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-}
-/* line 252, ../sass/style.scss */
-.dealprice ul li {
-  float: left;
-}
-=======
-=======
->>>>>>> dealdetail
-/* incase an inverted custom gradient isn't specified */
-/* line 177, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class {
-  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
-<<<<<<< HEAD
-  background: url('/images/button_bg.png?1321430161') repeat-x bottom left;
-=======
   background: url('/images/button_bg.png?1321429199') repeat-x bottom left;
->>>>>>> dealdetail
   margin: 0;
   width: auto;
   overflow: visible;
@@ -572,21 +12,17 @@ span.quote-close {
   border-style: solid;
   font-weight: bold;
 }
-/* line 165, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 165, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class::-moz-focus-inner {
   border: none;
   padding: 0;
 }
-/* line 168, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 168, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
-/* line 12, ../sass/style.scss */
-=======
-/* line 11, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 15, ../sass/style.scss */
 body {
   font-family: arialMT;
   font-size: 12px;
@@ -594,29 +30,17 @@ body {
   line-height: 16px;
 }
 
-<<<<<<< HEAD
-/* line 18, ../sass/style.scss */
-=======
-/* line 17, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 21, ../sass/style.scss */
 a {
   color: #cc0000;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 21, ../sass/style.scss */
-=======
-/* line 20, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 24, ../sass/style.scss */
 a:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-/* line 25, ../sass/style.scss */
-=======
-/* line 24, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 28, ../sass/style.scss */
 h1 {
   font-size: 18px;
   text-transform: capitalize;
@@ -626,19 +50,17 @@ h1 {
   line-height: 20px;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 strong {
   font-weight: bold;
   color: #666666;
 }
-/* line 35, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 strong.red {
   color: #990000;
 }
 
-/* line 39, ../sass/style.scss */
-<<<<<<< HEAD
-=======
+/* line 43, ../sass/style.scss */
 hr.dotted {
   border: none;
   margin: 5px 0;
@@ -646,44 +68,27 @@ hr.dotted {
   border-bottom: 1px dotted #DBDBDB;
 }
 
-/* line 45, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 49, ../sass/style.scss */
 .verticleprefix {
   padding: 8px;
 }
 
-<<<<<<< HEAD
-/* line 42, ../sass/style.scss */
-=======
-/* line 48, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 52, ../sass/style.scss */
 .breadcrumb {
   font-size: 11px;
   padding: 15px 0;
 }
-<<<<<<< HEAD
-/* line 45, ../sass/style.scss */
-=======
-/* line 51, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 55, ../sass/style.scss */
 .breadcrumb .separator {
   font-size: 10px;
 }
 
-<<<<<<< HEAD
-/* line 49, ../sass/style.scss */
-=======
-/* line 55, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 59, ../sass/style.scss */
 .block {
   margin: 15px 0;
 }
 
-<<<<<<< HEAD
-/* line 52, ../sass/style.scss */
-=======
-/* line 58, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 62, ../sass/style.scss */
 button {
   text-transform: capitalize;
   font-weight: bold;
@@ -716,19 +121,15 @@ button {
   padding: 10px 12px;
   border-width: 1px;
 }
-<<<<<<< HEAD
-/* line 55, ../sass/style.scss */
-=======
-/* line 61, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 65, ../sass/style.scss */
 button:hover {
   cursor: pointer;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button, button:visited {
   color: white;
 }
-/* line 31, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button:hover, button:focus {
   background-color: #930000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
@@ -740,11 +141,11 @@ button:hover, button:focus {
   border-color: #460000;
   text-shadow: #130000 0px 1px 1px;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button:hover, button:hover:visited, button:focus, button:focus:visited {
   color: white;
 }
-/* line 36, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button:active {
   background-color: #830000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
@@ -759,116 +160,72 @@ button:active {
   -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
   box-shadow: #550000 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button:active, button:active:visited {
   color: white;
 }
 
-<<<<<<< HEAD
-/* line 63, ../sass/style.scss */
-=======
-/* line 69, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 73, ../sass/style.scss */
 #merchantimg {
   padding: 0 8px 15px;
 }
 
-<<<<<<< HEAD
-/* line 68, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 #merchantdetails p {
   padding: 10px 0px 10px 50px;
 }
-/* line 71, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 #merchantdetails .viewmap {
   background: url(../images/view-map.jpg) 5px 12px no-repeat;
 }
-/* line 74, ../sass/style.scss */
-=======
-/* line 74, ../sass/style.scss */
-#merchantdetails p {
-  padding: 10px 0px 10px 50px;
-}
-/* line 77, ../sass/style.scss */
-#merchantdetails .viewmap {
-  background: url(../images/view-map.jpg) 5px 12px no-repeat;
-}
-/* line 80, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 #merchantdetails .coupons {
   background: url(../images/coupon.jpg) 5px 12px no-repeat;
 }
-/* line 83, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 #merchantdetails .viewmapblack {
   background: url(../images/view-map-black.jpg) 5px 12px no-repeat;
 }
-/* line 86, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 #merchantdetails .hourglass {
   background: url(../images/hourglass.jpg) 5px 12px no-repeat;
 }
-/* line 89, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 93, ../sass/style.scss */
 #merchantdetails .mobileno {
   background: url(../images/mobile.jpg) 12px 12px no-repeat;
   min-height: 60px;
 }
-<<<<<<< HEAD
-/* line 77, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 #merchantdetails .mobileno strong {
   color: #000000;
 }
-/* line 80, ../sass/style.scss */
-=======
-/* line 92, ../sass/style.scss */
-#merchantdetails .mobileno strong {
-  color: #000000;
-}
-/* line 95, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 99, ../sass/style.scss */
 #merchantdetails .mobileno span {
   float: left;
   display: block;
   padding: 5px 5px 5px 0;
 }
-<<<<<<< HEAD
-/* line 88, ../sass/style.scss */
-=======
-/* line 103, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 107, ../sass/style.scss */
 #merchantdetails .mobileno span.twittersmall {
   background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
 }
-<<<<<<< HEAD
-/* line 92, ../sass/style.scss */
-=======
-/* line 107, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 111, ../sass/style.scss */
 #merchantdetails .mobileno span.facebooksmall {
   background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
 }
-<<<<<<< HEAD
-/* line 98, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 #merchantdetails .report {
   background: url(../images/report.jpg) 10px 12px no-repeat;
 }
-/* line 101, ../sass/style.scss */
-=======
-/* line 113, ../sass/style.scss */
-#merchantdetails .report {
-  background: url(../images/report.jpg) 10px 12px no-repeat;
-}
-/* line 116, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 120, ../sass/style.scss */
 #merchantdetails .claimlisting {
   background: url(../images/claim-listing.jpg) 8px 12px no-repeat;
 }
 
 /*Sanjay*/
-<<<<<<< HEAD
-/* line 108, ../sass/style.scss */
-=======
-/* line 123, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 127, ../sass/style.scss */
 h2 {
   color: #363d41;
   font-size: 18px;
@@ -876,39 +233,23 @@ h2 {
   margin: 10px 0;
 }
 
-<<<<<<< HEAD
-/* line 114, ../sass/style.scss */
-=======
-/* line 129, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 133, ../sass/style.scss */
 h2 span {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-/* line 115, ../sass/style.scss */
-=======
-/* line 130, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 134, ../sass/style.scss */
 p {
   padding: 10px 0;
 }
 
-<<<<<<< HEAD
-/* line 117, ../sass/style.scss */
-=======
-/* line 132, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 136, ../sass/style.scss */
 blockquote {
   margin-left: 30px;
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-/* line 121, ../sass/style.scss */
-=======
-/* line 136, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 140, ../sass/style.scss */
 blockquote span {
   background-repeat: no-repeat;
   display: inline-block;
@@ -916,11 +257,7 @@ blockquote span {
   width: 29px;
 }
 
-<<<<<<< HEAD
-/* line 125, ../sass/style.scss */
-=======
-/* line 140, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 144, ../sass/style.scss */
 blockquote p {
   color: #993333;
   float: left;
@@ -929,79 +266,47 @@ blockquote p {
   width: 330px;
 }
 
-<<<<<<< HEAD
-/* line 130, ../sass/style.scss */
-=======
-/* line 145, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 149, ../sass/style.scss */
 span.quote-open {
   background-image: url("../images/quote-open.png");
   margin-right: 10px;
   float: left;
 }
 
-<<<<<<< HEAD
-/* line 136, ../sass/style.scss */
-=======
-/* line 151, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 155, ../sass/style.scss */
 span.quote-close {
   background-image: url("../images/quote-close.png");
   margin-left: 15px;
   margin-top: 27px;
 }
 
-<<<<<<< HEAD
-/* line 142, ../sass/style.scss */
-=======
-/* line 157, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 161, ../sass/style.scss */
 .maincontent, #tabs-1 {
   padding: 0 30px 30px;
 }
 
-<<<<<<< HEAD
-/* line 144, ../sass/style.scss */
-=======
-/* line 159, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 163, ../sass/style.scss */
 #howitworks {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
-/* line 145, ../sass/style.scss */
-=======
-/* line 160, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 164, ../sass/style.scss */
 #howitworks div.firsttab {
   border-top: 1px solid #E4E7E9;
 }
 
-<<<<<<< HEAD
-/* line 146, ../sass/style.scss */
-=======
-/* line 161, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 165, ../sass/style.scss */
 #howitworks div {
   overflow: hidden;
   border-bottom: 1px solid #E4E7E9;
 }
-<<<<<<< HEAD
-/* line 148, ../sass/style.scss */
-=======
-/* line 163, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 167, ../sass/style.scss */
 #howitworks div ul li {
   float: left;
   margin: 15px 10px 10px 0;
   padding: 5px;
 }
-<<<<<<< HEAD
-/* line 151, ../sass/style.scss */
-=======
-/* line 166, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 170, ../sass/style.scss */
 #howitworks div ul li.first {
   background-image: url("../images/howitworks-sl.png");
   color: #FFFFFF;
@@ -1012,22 +317,14 @@ span.quote-close {
   width: 32px;
   border: none;
 }
-<<<<<<< HEAD
-/* line 161, ../sass/style.scss */
-=======
-/* line 176, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 180, ../sass/style.scss */
 #howitworks div ul li.second {
   display: block;
   font-family: helvetica;
   font-size: 20px;
   width: 117px;
 }
-<<<<<<< HEAD
-/* line 166, ../sass/style.scss */
-=======
-/* line 181, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 185, ../sass/style.scss */
 #howitworks div ul li.second span {
   display: block;
   font-family: helvetica;
@@ -1035,30 +332,95 @@ span.quote-close {
   font-weight: normal;
   padding-bottom: 7px;
 }
-<<<<<<< HEAD
-/* line 174, ../sass/style.scss */
-=======
-/* line 189, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 193, ../sass/style.scss */
 #howitworks div ul li.third {
   width: 99px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 177, ../sass/style.scss */
-=======
-/* line 192, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 196, ../sass/style.scss */
 #howitworks div ul li.four {
   width: 245px;
   margin-right: 0;
 }
 
-<<<<<<< HEAD
-/* line 182, ../sass/style.scss */
-=======
-/* line 197, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 200, ../sass/style.scss */
+.website {
+  float: left;
+}
+
+/* line 203, ../sass/style.scss */
+.twittersmall {
+  background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
+  padding-left: 26px;
+  float: left;
+  height: 22px;
+}
+
+/* line 209, ../sass/style.scss */
+.facebooksmall {
+  background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
+  padding-left: 26px;
+  float: left;
+  height: 22px;
+}
+
+/* line 215, ../sass/style.scss */
+.report {
+  background: url(../images/report.jpg) 0 0 no-repeat;
+}
+
+/* line 218, ../sass/style.scss */
+.claimlisting {
+  background: url(../images/claim-listing.jpg) 0 0 no-repeat;
+  height: 26px;
+}
+
+/* line 223, ../sass/style.scss */
+ul#brand {
+  float: right;
+}
+/* line 224, ../sass/style.scss */
+ul#brand li {
+  display: block;
+  float: left;
+}
+/* line 227, ../sass/style.scss */
+ul#brand li a {
+  display: block;
+  margin: 2px 10px 0 30px;
+}
+
+/* line 233, ../sass/style.scss */
+a#brandbutton button {
+  padding: 10px 30px;
+}
+
+/* line 235, ../sass/style.scss */
+#usercontent div {
+  margin: 0;
+  padding: 15px 6px;
+}
+/* line 238, ../sass/style.scss */
+#usercontent div .grid_5 label {
+  display: block;
+  color: #353D40;
+}
+/* line 242, ../sass/style.scss */
+#usercontent div .grid_5 input {
+  display: block;
+  -webkit-border-radius: 5px 5px / 5px 5px;
+  -moz-border-radius: 5px 5px / 5px 5px;
+  -ms-border-radius: 5px 5px / 5px 5px;
+  -o-border-radius: 5px 5px / 5px 5px;
+  border-radius: 5px 5px / 5px 5px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  margin: 7px 0;
+  color: #79838D;
+}
+
+/* line 252, ../sass/style.scss */
 #commentform textarea {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -1074,11 +436,7 @@ span.quote-close {
   padding: 5px;
   margin: 10px 0;
 }
-<<<<<<< HEAD
-/* line 191, ../sass/style.scss */
-=======
-/* line 206, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 261, ../sass/style.scss */
 #commentform input.button {
   text-transform: capitalize;
   font-weight: bold;
@@ -1111,19 +469,15 @@ span.quote-close {
   padding: 6px 10px;
   border-width: 1px;
 }
-<<<<<<< HEAD
-/* line 194, ../sass/style.scss */
-=======
-/* line 209, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 264, ../sass/style.scss */
 #commentform input.button:hover {
   cursor: pointer;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #commentform input.button, #commentform input.button:visited {
   color: white;
 }
-/* line 31, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #commentform input.button:hover, #commentform input.button:focus {
   background-color: #930000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
@@ -1135,11 +489,11 @@ span.quote-close {
   border-color: #460000;
   text-shadow: #130000 0px 1px 1px;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #commentform input.button:hover, #commentform input.button:hover:visited, #commentform input.button:focus, #commentform input.button:focus:visited {
   color: white;
 }
-/* line 36, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #commentform input.button:active {
   background-color: #830000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
@@ -1154,55 +508,32 @@ span.quote-close {
   -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
   box-shadow: #550000 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #commentform input.button:active, #commentform input.button:active:visited {
   color: white;
 }
 
-<<<<<<< HEAD
-/* line 204, ../sass/style.scss */
-.css-panes div.container_10 {
-  display: block!important;
-  padding: 0!important;
-}
-/* line 207, ../sass/style.scss */
-.css-panes div.container_10 .grid_4, .css-panes div.container_10 .grid_10 {
-  padding: 0px;
-  margin: 0px;
-}
-/* line 211, ../sass/style.scss */
-.css-panes div.container_10 .grid_4 {
-  padding-left: 10px;
-}
-/* line 215, ../sass/style.scss */
-.css-panes div div.dealprice {
-=======
-/* line 219, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .css-panes div .grid_4, .css-panes div .grid_10 {
   padding: 0px;
   margin: 0px;
 }
-/* line 223, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .css-panes div .grid_4 {
   padding-left: 10px;
 }
-/* line 226, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .css-panes div .grid_7 {
   padding: 0;
 }
 
-/* line 230, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 div.dealprice {
->>>>>>> dealdetail
   display: block!important;
   padding: 10px 0!important;
 }
 
-<<<<<<< HEAD
-/* line 221, ../sass/style.scss */
-=======
-/* line 235, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 290, ../sass/style.scss */
 #alertbox {
   -webkit-border-radius: 8px 8px / 8px 8px;
   -moz-border-radius: 8px 8px / 8px 8px;
@@ -1212,30 +543,18 @@ div.dealprice {
   background: #8dc7c2 url(../images/alertboxbg.png) 98% 5px no-repeat;
   padding: 5px 10px;
 }
-<<<<<<< HEAD
-/* line 225, ../sass/style.scss */
-=======
-/* line 239, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 294, ../sass/style.scss */
 #alertbox p {
   font-size: 16px;
   padding-bottom: 5px;
   font-family: helvetica;
   color: #FFFFFF;
 }
-<<<<<<< HEAD
-/* line 230, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 #alertbox p span {
   font-weight: bold;
 }
-/* line 234, ../sass/style.scss */
-=======
-/* line 244, ../sass/style.scss */
-#alertbox p span {
-  font-weight: bold;
-}
-/* line 248, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 303, ../sass/style.scss */
 #alertbox input {
   border: 1px solid #54ADAA;
   -webkit-border-radius: 4px 4px / 4px 4px;
@@ -1247,11 +566,7 @@ div.dealprice {
   padding: 5px;
   color: #666666;
 }
-<<<<<<< HEAD
-/* line 241, ../sass/style.scss */
-=======
-/* line 255, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 310, ../sass/style.scss */
 #alertbox input.button {
   width: 20px;
   text-transform: capitalize;
@@ -1285,19 +600,15 @@ div.dealprice {
   padding: 5px 15px;
   border-width: 1px;
 }
-<<<<<<< HEAD
-/* line 247, ../sass/style.scss */
-=======
-/* line 261, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 316, ../sass/style.scss */
 #alertbox input.button:hover {
   cursor: pointer;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #alertbox input.button, #alertbox input.button:visited {
   color: white;
 }
-/* line 31, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #alertbox input.button:hover, #alertbox input.button:focus {
   background-color: #0cbebd;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #98dbda), color-stop(10%, #55c3c2), color-stop(50%, #318a8a), color-stop(50%, #2d7f7e), color-stop(100%, #3aa5a4));
@@ -1309,11 +620,11 @@ div.dealprice {
   border-color: #215d5d;
   text-shadow: #054746 0px 1px 1px;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #alertbox input.button:hover, #alertbox input.button:hover:visited, #alertbox input.button:focus, #alertbox input.button:focus:visited {
   color: white;
 }
-/* line 36, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #alertbox input.button:active {
   background-color: #0cb0ae;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #318a8a), color-stop(30%, #349291), color-stop(50%, #2e8382), color-stop(50%, #2a7877), color-stop(100%, #3ca9a7));
@@ -1328,16 +639,12 @@ div.dealprice {
   -moz-box-shadow: #256968 0 0.08em 0.2em 1px inset;
   box-shadow: #256968 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #alertbox input.button:active, #alertbox input.button:active:visited {
   color: white;
 }
 
-<<<<<<< HEAD
-/* line 257, ../sass/style.scss */
-=======
-/* line 271, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 326, ../sass/style.scss */
 .dealprice ul {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -1352,30 +659,18 @@ div.dealprice {
   padding: 5px;
   margin: 0px;
 }
-<<<<<<< HEAD
-/* line 264, ../sass/style.scss */
-=======
-/* line 278, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 333, ../sass/style.scss */
 .dealprice ul li {
   width: 120px;
   float: left;
   text-align: center;
   border-right: 1px dotted #d5d7db;
 }
-<<<<<<< HEAD
-/* line 269, ../sass/style.scss */
+/* line 338, ../sass/style.scss */
 .dealprice ul li.last {
   border: none;
 }
-/* line 274, ../sass/style.scss */
-=======
-/* line 283, ../sass/style.scss */
-.dealprice ul li.last {
-  border: none;
-}
-/* line 288, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 343, ../sass/style.scss */
 .dealprice span.expireson {
   width: 125px;
   display: block;
@@ -1384,11 +679,7 @@ div.dealprice {
   margin-top: 10px;
   background: url(../images/hourglass.jpg) 5px 2px no-repeat;
 }
-<<<<<<< HEAD
-/* line 282, ../sass/style.scss */
-=======
-/* line 296, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 351, ../sass/style.scss */
 .dealprice button {
   margin-top: 10px;
   float: right;
@@ -1424,19 +715,15 @@ div.dealprice {
   padding: 6px 10px;
   border-width: 1px;
 }
-<<<<<<< HEAD
-/* line 288, ../sass/style.scss */
-=======
-/* line 302, ../sass/style.scss */
->>>>>>> dealdetail
+/* line 357, ../sass/style.scss */
 .dealprice button:hover {
   cursor: pointer;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .dealprice button, .dealprice button:visited {
   color: white;
 }
-/* line 31, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .dealprice button:hover, .dealprice button:focus {
   background-color: #930000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
@@ -1448,11 +735,11 @@ div.dealprice {
   border-color: #460000;
   text-shadow: #130000 0px 1px 1px;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .dealprice button:hover, .dealprice button:hover:visited, .dealprice button:focus, .dealprice button:focus:visited {
   color: white;
 }
-/* line 36, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .dealprice button:active {
   background-color: #830000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
@@ -1467,26 +754,70 @@ div.dealprice {
   -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
   box-shadow: #550000 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .dealprice button:active, .dealprice button:active:visited {
   color: white;
 }
 
-<<<<<<< HEAD
+/* deal detail page */
+/* line 368, ../sass/style.scss */
+#dealdetail .grid_4, #dealdetail .grid_9 {
+  margin: 0;
+}
+/* line 371, ../sass/style.scss */
+#dealdetail .grid_4 {
+  text-align: center;
+}
+/* line 373, ../sass/style.scss */
+#dealdetail .grid_4 button {
+  margin-top: 10px;
+}
+/* line 377, ../sass/style.scss */
+#dealdetail .grid_4 a img {
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 383, ../sass/style.scss */
+#dealdetail .grid_4 a:hover {
+  text-decoration: none;
+}
+/* line 388, ../sass/style.scss */
+#dealdetail .dealprice ul {
+  width: 317px;
+  padding: 10px 0;
+}
+/* line 391, ../sass/style.scss */
+#dealdetail .dealprice ul li {
+  width: 105px;
+}
+
+/* line 397, ../sass/style.scss */
+p.userpic {
+  height: 42px;
+}
+/* line 399, ../sass/style.scss */
+p.userpic img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 /**
  * Homepage
  */
-/* line 301, ../sass/style.scss */
+/* line 410, ../sass/style.scss */
 #container .topheader {
   height: 30px;
   background: #363d41;
 }
-/* line 305, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 #container .topheader header nav ul {
   overflow: hidden;
   margin: 0;
 }
-/* line 308, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 #container .topheader header nav ul li {
   float: left;
   height: 30px;
@@ -1494,7 +825,7 @@ div.dealprice {
   list-style: none;
   margin-left: 20px;
 }
-/* line 315, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 #container .topheader header nav ul li a {
   color: #AEB5BF;
   font-family: Arial;
@@ -1502,12 +833,12 @@ div.dealprice {
   padding: 0 5px;
   display: block;
 }
-/* line 321, ../sass/style.scss */
+/* line 430, ../sass/style.scss */
 #container .topheader header nav ul li a:hover {
   color: #FFF;
 }
 
-/* line 328, ../sass/style.scss */
+/* line 437, ../sass/style.scss */
 .set-deals-alert {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1538,11 +869,11 @@ div.dealprice {
   padding: 15px 30px;
   border-width: 1px;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert, .set-deals-alert:visited {
   color: white;
 }
-/* line 31, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:hover, .set-deals-alert:focus {
   background-color: #0000f0;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9999ff), color-stop(10%, #3d3dff), color-stop(50%, #0000e0), color-stop(50%, #0000d1), color-stop(100%, #0505ff));
@@ -1554,11 +885,11 @@ div.dealprice {
   border-color: #0000a3;
   text-shadow: #000070 0px 1px 1px;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:hover, .set-deals-alert:hover:visited, .set-deals-alert:focus, .set-deals-alert:focus:visited {
   color: white;
 }
-/* line 36, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:active {
   background-color: #0000e0;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0000e0), color-stop(30%, #0000eb), color-stop(50%, #0000d6), color-stop(50%, #0000c7), color-stop(100%, #0a0aff));
@@ -1573,62 +904,15 @@ div.dealprice {
   -moz-box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
   box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:active, .set-deals-alert:active:visited {
   color: white;
 }
 
-/* line 334, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 #header-logo {
   background: #F1F2F3;
   height: 80px;
   margin-bottom: 15px;
   padding-top: 5px;
 }
->>>>>>> eae17a1799e1daf26d5ce2e5b19562eeff12c871
-=======
-/* deal detail page */
-/* line 313, ../sass/style.scss */
-#dealdetail .grid_4, #dealdetail .grid_9 {
-  margin: 0;
-}
-/* line 316, ../sass/style.scss */
-#dealdetail .grid_4 {
-  text-align: center;
-}
-/* line 318, ../sass/style.scss */
-#dealdetail .grid_4 button {
-  margin-top: 15px;
-}
-/* line 322, ../sass/style.scss */
-#dealdetail .grid_4 a img {
-  margin-top: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 328, ../sass/style.scss */
-#dealdetail .grid_4 a:hover {
-  text-decoration: none;
-}
-/* line 333, ../sass/style.scss */
-#dealdetail .dealprice ul {
-  width: 317px;
-  padding: 10px 0;
-}
-/* line 336, ../sass/style.scss */
-#dealdetail .dealprice ul li {
-  width: 105px;
-}
-
-/* line 342, ../sass/style.scss */
-p.userpic {
-  height: 42px;
-}
-/* line 344, ../sass/style.scss */
-p.userpic img {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
->>>>>>> dealdetail
