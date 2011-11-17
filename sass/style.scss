@@ -125,10 +125,6 @@ button {
 
 
 /*Sanjay*/
-h2{color:$h2color;
-font-size:18px;
-font-family:helvetica;
-margin:10px 0;
 h2{
     color:$h2color;
     font-size:18px;
@@ -356,9 +352,7 @@ a#brandbutton button{padding:10px 30px;}
         text-decoration:none;
       }
     }
-
 }
-
 
 #commentform {
   textarea {
@@ -540,7 +534,7 @@ p.userpic {
           padding: 0 5px;
           display: block;
           &:hover{
-           color: #FFF;
+            color: #FFF;
           }
         }
       }
@@ -558,3 +552,4 @@ p.userpic {
   margin-bottom: 15px;
   padding-top:5px;
 }
+
