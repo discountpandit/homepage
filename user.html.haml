@@ -55,7 +55,8 @@
         .css-panes#usercontent
           %div{:style => "display: block;"}
             .grid_4
-              image goes here
+              %img{ :src => "./images/user-img.jpg" }
+              %a{:href => "#"}Upload Profile Picture
             .grid_11
               .grid_5
                 %form{:action => "#", :method => "POST"}
@@ -70,11 +71,41 @@
                 %input{:type => "textbox", :value => "abcd", :name => "name"}
                 %label Re-enter Password
                 %input{:type => "textbox", :value => "abcd", :name => "emailid"}                
-          %hr
-          %input{:type => "submit", :value => "Save", :name => "go", :class => "button"}
-                        
-          %div{:style => "display: none;"}
-            %h2 I am following
+            %hr
+            %input{:type => "submit", :value => "Save", :name => "go", :class => "button"}
+                            
+          %div{:style => "display: none;", :class => "userfollow"}
+            %h2 Merchants
+            .grid_5
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+            .grid_5
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+            .grid_5
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+            %div{:style => "clear:both;display:block;"}
+            %h2 Brands
+            .grid_5
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+            .grid_5
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+            .grid_5
+              %h4
+                %a{:href => "#"}Merchant merchant name 
+              %p Location location, street location Categories categories
+
           %div{:style => "display: none;"}
             %h2 Recent activities
           %div{:style => "display: none;"}
