@@ -8,44 +8,227 @@
   <!--<![endif]-->
   %head
     %meta{ :charset => "utf-8" }/
-    
+
     -# Always force latest IE rendering engine (even in intranet) & Chrome Frame
     -# Remove this if you use the .htaccess
     %meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }/
-    
+
     %title
     %meta{ :name => "description", :content => "" }/
     %meta{ :name => "author", :content => "" }/
-    
+
     -# Mobile viewport optimized: j.mp/bplateviewport
     %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }/
-    
+
     -# Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
-    
     -# CSS: implied media="all"
-    %link{ :href => "css/style.css?v=1", :media => "all", :rel => "stylesheet" }/
-    
+    %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/tabs.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/scrollable.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/nivo-slider.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/slidetheme/default.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/chosen.css?v=1", :media => "all", :rel => "stylesheet" }/
+
     -# All JavaScript at the bottom, except for Modernizr and Respond.
     -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
     %script{ :src => "js/modernizr.min.js" }
     %script{ :src => "js/respond.min.js" }
-    
+
   %body
-    #container
-      %header
-      #main{ :role => 'main' }
+    #menubg
+      .container_24
+        %ul
+          %li.dropdown
+            %a{:href => "#"} Categories
+          %li
+            %a{:href => "how-it-works.html"} How it works
+          %li
+            %a{:href => "what-is-Dp.html"} What is DiscountPandit
+          %li
+            %a.active{:href => "index.html"} Home
+    #headerbg
+      .container_24
+        .grid_4.prefix_1
+          %img{:id => "logo", :src => "images/logo.png"}
+        .grid_8.prefix_3
+          %span change country
+          %select{:name => "country", :id => "changecountry"}
+            %option{:value => ""} -- Country --
+            %option{:value => "india"} India
+            %option{:value => "srilanka"} Srilanka
+            %option{:value => "thailand"} Thailand
+            %option{:value => "singapore"} Singapore
+            %option{:value => "china"} China
+        .grid_3.prefix_1
+          %a{:href => "#"} facebook
+        .grid_4
+          %a{:class => "black", :href => "#"}
+            %strong Login
+          %span.black &#124;
+          %a{:class => "black", :href => "#"}
+            %strong Sign Up
+          %p
+            %a{:class => "grey", :href => "#"} Do I need to sign up?
+    .container_24
+      .verticleprefix
+      .grid_16
+        #searchbox
+          %form{:action => "#", :method => "POST"}
+            %input.city{:name => "city", :value => "Bangalore"}
+            %input.location{:name => "location", :value => "Indiranagar"}
+            %input.searchtext{:name => "searchtext", :value => "What do I want to do today?"}
+            %input.button{:name => "search", :value => "Search"}
+          %span.city City
+          %span.location Location
+          %span.searchtext e.g: shopping
+      .grid_8
+        #dealalert
+          %h1.white Set a Deal alert
+          %span customize the way you search
+
+    .container_24
+      .grid_16
+        #top5
+          .grid_8
+            %h2
+              Top 5 Deals in
+              %strong Travel & Holiday
+          .grid_7#categorydd
+            %span Change Category
+            %select{:id => "changecategory"}
+              %option{:value => ""} -- Country --
+              %option{:value => "india"} India
+              %option{:value => "srilanka"} Srilanka
+
+        %a.prev.browse.left &nbsp;
+        .scrollable
+          .items
+            %div
+              .grid_4.prefix_1
+                image goes here
+              .grid_10
+                %h6 title of the deal first goes here
+                %div.dealprice
+                  %ul
+                    %li
+                      Original Value
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                    %li
+                      Deal Price
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                    %li.last
+                      You Save
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                  %span.expireson
+                    Deal expires on
+                    %br
+                    %strong 22 November 2011
+                  %button Go to Deal
+            %div
+              .grid_4.prefix_1
+                image goes here
+              .grid_10
+                %h6 title of the deal goes here
+                %div.dealprice
+                  %ul
+                    %li
+                      Original Value
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                    %li
+                      Deal Price
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                    %li.last
+                      You Save
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                  %span.expireson
+                    Deal expires on
+                    %br
+                    %strong 22 November 2011
+                  %button Go to Deal
+            %div
+              .grid_4.prefix_1
+                image goes here
+              .grid_10
+                %h6 title of the deal second goes here
+                %div.dealprice
+                  %ul
+                    %li
+                      Original Value
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                    %li
+                      Deal Price
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                    %li.last
+                      You Save
+                      %br
+                      %strong.red
+                        %span.rupees Rs
+                        1000
+                  %span.expireson
+                    Deal expires on
+                    %br
+                    %strong 22 November 2011
+                  %button Go to Deal
+        %a.next.browse.right &nbsp;
+
+      .grid_8
+        %h2 add goes here
+    .container_24
+      %grid_24.recommanded
+        %ul
+          %li
+            %img{:src => "images/deal.jpg"}
+              %span 43%
+              %p
+              title of the deal goes here
+              %br
+              Koramangala
+
       %footer
-      
-    -# 
+
+    -#
       Javascript at the bottom for fast page loading
       Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
-    %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+    %script{ :src => "http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js" }
+    %script{ :src => "javascripts/jquery.nivo.slider.js?v=1" }
+    %script{ :src => "javascripts/chosen.jquery.min.js?v=1" }
+
     :javascript
-      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
-    
-    %script{ :src => "js/plugins.js?v=1" }
-    %script{ :src => "js/script.js?v=1" }
-    
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>");
+      $(function() {
+        // :first selector is optional if you have only one tabs on the page
+        $(".css-tabs:first").tabs(".css-panes:first > div");
+        $("#changecountry").chosen();
+        $("#changecategory").chosen();
+        $(".scrollable").scrollable();
+        $('#slider').nivoSlider();
+      });
+
     -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
     -#  change the UA-XXXXX-X to be your site's ID
     :javascript

@@ -41,6 +41,12 @@ strong {
     color: $redcolor;
   }
 }
+.black {
+  color: #000000;
+}
+.grey {
+  color: #666666;
+}
 hr.dotted {
   border: none;
   margin: 5px 0;
@@ -553,3 +559,192 @@ p.userpic {
   padding-top:5px;
 }
 
+#menubg {
+  height: 30px;
+  background: #363d41;
+  ul {
+    li {
+      float: right;
+      &.dropdown {
+        a {
+          background: url(../images/down-arrow-grey.png) 92% 12px no-repeat;
+          padding-right: 24px;
+        }
+        a.active, a:hover {
+          background: url(../images/down-arrow.png) 92% 12px no-repeat;
+        }
+      }
+      a {
+        color: #AEB5BF;
+        padding: 7px 10px;
+        font-weight: bold;
+        display: block;
+        &:hover {
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+        &.active {
+          color: #FFFFFF;
+          background-color: #000000;
+        }
+      }
+    }
+  }
+}
+
+#headerbg {
+  background: #f1f2f3;
+  height: 60px;
+  color: #000000;
+  padding: 10px 0;
+  .grid_8 {
+    margin-top: 15px;
+    span {
+      line-height: 24px;
+      height: 24px;
+      display: block;
+      float: left;
+    }
+  }
+}
+
+/* custom dropdown chosen css override */
+.container_24 .chzn-container-single .chzn-single div {
+  background: none;
+  border: none;
+}
+.container_24 .chzn-container-single .chzn-single {
+  background: #FFFFFF;
+  margin: 0 10px;
+  width: 120px;
+  height: 24px;
+  line-height: 24px;
+  @include box-shadow();
+  border-color: #cbced1;
+}
+
+#searchbox {
+  background: #e4e7e9;
+  @include border-radius(5px 5px, 5px 5px);
+  padding: 15px 15px 30px;
+  input {
+    @include box-shadow(#AAAAAA 0px 0px 5px);
+    height: 30px;
+    padding: 4px 5px;
+    border-color: 1px solid #c9ccd1;
+    margin: 0 5px;
+    color: #000000;
+    height: 20px;
+    &.city {
+      width: 100px;
+    }
+    &.location {
+      width: 120px;
+    }
+    &.searchtext {
+      width: 198px;
+    }
+    &.button {
+     text-transform: capitalize;
+     font-weight: bold;
+     width: 50px;
+     &:hover {
+        cursor: pointer;
+     }
+       @include fancy-button-size(14px, 5px, 0px);
+       @include fancy-button-colors($button_bg);
+       @include fancy-button-padding(6px, 10px);
+    }
+  }
+  span {
+    display: block;
+    float: left;
+    padding: 0px 5px;
+    &.city {
+      width: 120px;
+    }
+    &.location {
+      width: 140px;
+    }
+    &.searchtext {
+      width: 198px;
+    }
+  }
+}
+
+#dealalert {
+  background: url(../images/dealalertbg.jpg) 0 0 no-repeat;
+  padding: 20px 30px;
+  h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  span {
+    color: #FFFFFF;
+  }
+}
+
+#top5 {
+  background: #e4e7e9;
+  border: 1px solid #FFFFFF;
+  margin-top: 30px;
+  padding: 15px 8px;
+  height: 30px;
+  @include border-radius(5px 5px 0px 0px);
+  span {
+    line-height: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    color: #000000;
+  }
+}
+
+.scrollable {
+  a.browse {
+    width: 19px;
+    height: 45px;
+    margin-top: 70px;
+  }
+  a.left {
+    background: url(../images/top-left.png) 0 0 no-repeat;
+    margin-left: 10px;
+  }
+  a.right {
+    margin-right: 10px;
+    background: url(../images/top-right.png) 0 0 no-repeat;
+  }
+  div.dealprice {
+    width: 355px;
+    ul {
+      width: 332px;
+      li {
+        width: 110px;
+      }
+    }
+  }
+}
+.recommanded {
+  ul {
+    li {
+      float: left;
+      padding: 10px;
+      border: 1px solid #dee0e2;
+      background: #e3e6e8;
+      @include border-radius(5px 5px 5px 5px);
+      width: 135px;
+      span {
+        float: right;
+        position: relative;
+        display: block;
+        margin-top: -20px;
+        width: 40px;
+        height: 100px;
+        background: url(../images/discountbg.png) 0 0 no-repeat;
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+    }
+  }
+}
+>>>>>>> homepage
