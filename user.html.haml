@@ -52,8 +52,26 @@
           %li
             %a{:href => "#"} Reviews
        
-        .css-panes
+        .css-panes#usercontent
           %div{:style => "display: block;"}
+            .grid_4
+              image goes here
+            .grid_11
+              .grid_5
+                %form{:action => "#", :method => "POST"}
+                %label Full Name
+                %input{:type => "textbox", :value => "abcd", :name => "name"}
+                %label Email
+                %input{:type => "textbox", :value => "abc@w.com", :name => "emailid"}
+                %label Mobile number
+                %input{:type => "textbox", :value => "+91...", :name => "mobileno"}
+              .grid_5
+                %label Set Password
+                %input{:type => "textbox", :value => "abcd", :name => "name"}
+                %label Re-enter Password
+                %input{:type => "textbox", :value => "abcd", :name => "emailid"}                
+          %hr
+          %input{:type => "submit", :value => "Save", :name => "go", :class => "button"}
                         
           %div{:style => "display: none;"}
             %h2 I am following
