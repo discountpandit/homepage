@@ -1,0 +1,214 @@
+!!! 5
+-# paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+%html.no-js{ :lang => "en" }
+  <!--<![endif]-->
+  %head
+    %meta{ :charset => "utf-8" }/
+    
+    -# Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    -# Remove this if you use the .htaccess
+    %meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }/
+    
+    %title
+    %meta{ :name => "description", :content => "" }/
+    %meta{ :name => "author", :content => "" }/
+    
+    -# Mobile viewport optimized: j.mp/bplateviewport
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }/
+    
+    -# Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
+    
+    -# CSS: implied media="all"
+    %link{ :href => "stylesheets/grid.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+    %link{ :href => "stylesheets/tabs.css?v=1", :media => "all", :rel => "stylesheet" }/
+    
+    -# All JavaScript at the bottom, except for Modernizr and Respond.
+    -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+    %script{ :src => "js/modernizr.min.js" }
+    %script{ :src => "js/respond.min.js" }
+
+  %body
+    #container.container_24
+      %header
+    #container.container_24
+      .grid_16#searchresult
+        %h1 Search Results for Chinese Restaurants in Indiranagar, Bangalore
+        %p Displaying 1-10 of 246 results
+        %div#sort
+          Sort by
+          %select{:name => "searchsort", :id => "searchsort"}
+            %option{:value => "default"} Default
+            %option{:value => "default"} Default1
+            %option{:value => "default"} Default2
+          Radius
+          %select{:name => "searchdistance", :id => "searchdistance"}
+            %option{:value => "1km"} 1km
+            %option{:value => "2km"} 2km
+            %option{:value => "3km"} 3km
+        .grid_4
+          %h3 Refine your Search
+          %div
+            %form{:action => "#", :method => "POST"}
+            %h4 Locality
+            %input{:type => "checkbox", :value => "localdeal", :name => "locality"}Local Deal
+            %br
+            %input{:type => "checkbox", :value => "nationaldeal", :name => "locality"}National Deal
+            %h4 Deal Categories
+            %input{:type => "checkbox", :value => "foodlounges", :name => "dealcategories"}Food & Lounges
+            %br
+            %input{:type => "checkbox", :value => "shoppind", :name => "dealcategories"}Shopping
+            %br
+            %input{:type => "checkbox", :value => "electronics", :name => "dealcategories"}Electronics
+            %br
+            %input{:type => "checkbox", :value => "services", :name => "dealcategories"}Services
+            %br
+            %input{:type => "checkbox", :value => "travel", :name => "dealcategories"}Travel & Holiday
+            %br
+            %input{:type => "checkbox", :value => "entertainment", :name => "dealcategories"}Entertainment
+            %br
+            %input{:type => "checkbox", :value => "health", :name => "dealcategories"}Health & Beauty
+            %h4 Deal Providers
+            %input{:type => "checkbox", :value => "snapdeal", :name => "dealprovider"}Snapdeal
+            %br
+            %input{:type => "checkbox", :value => "flipkart", :name => "dealprovider"}Flipkart
+            %br
+            %input{:type => "checkbox", :value => "crazeal", :name => "dealprovider"}Crazeal
+            %br
+            %input{:type => "checkbox", :value => "viadeals", :name => "dealprovider"}Via Deals
+            %h4 Deal Type
+            %input{:type => "checkbox", :value => "groupbying", :name => "dealtype"}Group Buying
+            %br
+            %input{:type => "checkbox", :value => "smscoupon", :name => "dealtype"}SMS Coupon Allowed
+            %br
+            %input{:type => "checkbox", :value => "codavailable", :name => "dealtype"}COD available
+
+        .grid_12
+          #adds
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+          #allresults
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+            %div
+              .grid_2
+                %img{ :src => "./images/search-img.jpg" }
+              .grid_8
+                %a{:href => "#"} The Subtle Flavors That Does The Trick ! Pay Rs 125 for Rs 250 Worth of Food at Garlic Naan Restaurant, Koramangala
+              .grid_2.arrow
+                %span 
+                  %a{:href => "#"}arrow image
+        
+         
+      .grid_8
+        %div.block
+          %img{ :src => "./images/right-top-banner.jpg" }
+        %div.block
+          %h2
+            %span Popular Searches 
+            in Bangalore
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+        %div.block
+          %h2
+            %span Most Viewed 
+            Businesses
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+          %a{:href => "#"} Restaurants in bangalore
+          %span.pipe &#124;
+        %div.block
+          %img{ :src => "./images/add1.jpg" }       
+      %footer
+      
+    -# 
+      Javascript at the bottom for fast page loading
+      Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+    %script{ :src => "http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js" }
+    :javascript
+      window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>");
+      $(function() {
+        // :first selector is optional if you have only one tabs on the page
+        $(".css-tabs:first").tabs(".css-panes:first > div");
+      });
+
+    %script{ :src => "js/plugins.js?v=1" }
+    %script{ :src => "js/script.js?v=1" }
+
+    -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+    -#  change the UA-XXXXX-X to be your site's ID
+    :javascript
+      var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+      s.parentNode.insertBefore(g,s)}(document,"script"));

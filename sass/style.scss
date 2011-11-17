@@ -31,6 +31,7 @@ h1 {
   font-weight: normal;
   font-family: helvetica;
   color: $h1color;
+  margin: 10px 0 0;
 }
 strong {
   font-weight: bold;
@@ -113,8 +114,17 @@ h2{
     font-size:18px;
     font-family:helvetica;
     margin:10px 0;
-  span{font-weight:bold;}
+    span{font-weight:bold;
+    }
 }
+h3{
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: bold;
+}
+h4{ font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;}
 
 p{padding:10px 0;}
 
@@ -222,21 +232,114 @@ a#brandbutton button{padding:10px 30px;}
 
 #usercontent div{
     margin: 0;
-    padding: 15px 6px;
-    .grid_5 label{
+    padding: 15px 6px 6px;
+    &.grid_5 label{
       display:block;
       color:#353D40;
     }
-    .grid_5 input{
+    &.grid_5 input{
       display:block;
       @include border-radius(5px 5px, 5px 5px);
-      @include box-shadow();
+      @include box-shadow(0 0 3px #C9CCD1);
+      $default-box-shadow-blur:2px;
+      border: 1px solid #C9CCD1;
+      color: #79838D;
+      height: 25px;
       margin: 7px 0;
-      color:#79838D;
+      padding-left: 3px;
+      width: 170px;
     }
+    &.grid_4 img{margin-top:20px;}
+}
+#usercontent hr{
+      float: left;
+      position: relative;
+      width: 100%;
+      border:1px solid #B0B9BD;
+    }
+
+#usercontent .button {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 27%;
+  &:hover {
+    cursor: pointer;
+  }
+  @include fancy-button-size(18px, 5px, 0px);
+  @include fancy-button-colors($button_bg);
+  @include fancy-button-padding(10px, 40px);
 }
 
 
+#searchresult{
+    .grid_4, .grid_2{
+      margin:0;
+    }
+    .grid_4 div{
+      margin-left:15px;
+    }
+    .grid_4 h4{
+      margin-top:15px;
+    }
+    .grid_4 input:focus{
+      border:1px solid #cc0000;
+    }
+    #adds{
+      background:#FFFBEC;
+      padding: 5px;
+      div{
+        padding: 1px 0;
+      }
+    }
+    #allresults{
+      padding: 5px;
+      div{
+        padding: 1px 0;
+      }
+    }
+    .arrow{
+      width:60px !important;
+      span a{
+         background: url(../images/searchresult-arrow.png) 0 0 no-repeat;
+         text-indent:-999px;
+         display:block;
+         height: 22px;
+         margin: 4px 10px;
+      }
+      span a:hover{
+        background: url(../images/searchresult-arrow-hover.png) 0 0 no-repeat;
+      }
+    }
+    .grid_2{
+      width:70px;
+    }
+    div#sort{
+      text-align:right;
+      border-top: 2px solid #D6D6D6;
+      padding: 10px;
+      text-align: right;
+      select{
+        margin-right: 10px;
+      }
+    }
+    .grid_12{
+      @include border-radius(5px 5px, 5px 5px);
+      @include box-shadow(0 0 5px #222222);
+      margin-right: 0;
+      padding: 5px;
+      div{
+         overflow: hidden;
+      }
+    }
+    .grid_8 a{
+      color:#363D41;
+      &:hover{
+        color:#CC0000;
+        text-decoration:none;
+      }
+    }
+
+}
 
 
 #commentform {
