@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* incase an inverted custom gradient isn't specified */
 /* line 177, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class {
@@ -63,6 +62,16 @@ strong.red {
 }
 
 /* line 44, ../sass/style.scss */
+.black {
+  color: #000000;
+}
+
+/* line 47, ../sass/style.scss */
+.grey {
+  color: #666666;
+}
+
+/* line 50, ../sass/style.scss */
 hr.dotted {
   border: none;
   margin: 5px 0;
@@ -70,27 +79,27 @@ hr.dotted {
   border-bottom: 1px dotted #DBDBDB;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .verticleprefix {
   padding: 8px;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .breadcrumb {
   font-size: 11px;
   padding: 15px 0;
 }
-/* line 56, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .breadcrumb .separator {
   font-size: 10px;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .block {
   margin: 15px 0;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 button {
   text-transform: capitalize;
   font-weight: bold;
@@ -123,7 +132,7 @@ button {
   padding: 10px 12px;
   border-width: 1px;
 }
-/* line 66, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 button:hover {
   cursor: pointer;
 }
@@ -167,109 +176,109 @@ button:active, button:active:visited {
   color: white;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 #merchantimg {
   padding: 0 8px 15px;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 #merchantdetails p {
   padding: 10px 0px 10px 50px;
 }
-/* line 82, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 #merchantdetails .viewmap {
   background: url(../images/view-map.jpg) 5px 12px no-repeat;
 }
-/* line 85, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #merchantdetails .coupons {
   background: url(../images/coupon.jpg) 5px 12px no-repeat;
 }
-/* line 88, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 #merchantdetails .viewmapblack {
   background: url(../images/view-map-black.jpg) 5px 12px no-repeat;
 }
-/* line 91, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 #merchantdetails .hourglass {
   background: url(../images/hourglass.jpg) 5px 12px no-repeat;
 }
-/* line 94, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 #merchantdetails .mobileno {
   background: url(../images/mobile.jpg) 12px 12px no-repeat;
   min-height: 60px;
 }
-/* line 97, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 #merchantdetails .mobileno strong {
   color: #000000;
 }
-/* line 100, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 #merchantdetails .mobileno span {
   float: left;
   display: block;
   padding: 5px 5px 5px 0;
 }
-/* line 108, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 #merchantdetails .mobileno span.twittersmall {
   background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
 }
-/* line 112, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 #merchantdetails .mobileno span.facebooksmall {
   background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
 }
-/* line 118, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 #merchantdetails .report {
   background: url(../images/report.jpg) 10px 12px no-repeat;
 }
-/* line 121, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 #merchantdetails .claimlisting {
   background: url(../images/claim-listing.jpg) 8px 12px no-repeat;
 }
 
 /*Sanjay*/
-/* line 128, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 h2 {
   color: #363d41;
   font-size: 18px;
   font-family: helvetica;
   margin: 10px 0;
 }
-/* line 133, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 h2 span {
   font-weight: bold;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 h3 {
   font-family: helvetica;
   font-size: 15px;
   font-weight: bold;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 h4 {
   font-family: Arial;
   font-size: 12px;
   font-weight: bold;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 h2 span {
   font-weight: bold;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 p {
   padding: 10px 0;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 blockquote {
   margin-left: 30px;
   overflow: hidden;
 }
 
-/* line 152, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 blockquote span {
   background-repeat: no-repeat;
   display: inline-block;
@@ -277,7 +286,7 @@ blockquote span {
   width: 29px;
 }
 
-/* line 156, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 blockquote p {
   color: #993333;
   float: left;
@@ -286,47 +295,47 @@ blockquote p {
   width: 330px;
 }
 
-/* line 161, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 span.quote-open {
   background-image: url("../images/quote-open.png");
   margin-right: 10px;
   float: left;
 }
 
-/* line 167, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 span.quote-close {
   background-image: url("../images/quote-close.png");
   margin-left: 15px;
   margin-top: 27px;
 }
 
-/* line 173, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .maincontent, #tabs-1 {
   padding: 0 30px 30px;
 }
 
-/* line 175, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 #howitworks {
   margin-top: 20px;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 #howitworks div.firsttab {
   border-top: 1px solid #E4E7E9;
 }
 
-/* line 177, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 #howitworks div {
   overflow: hidden;
   border-bottom: 1px solid #E4E7E9;
 }
-/* line 179, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 #howitworks div ul li {
   float: left;
   margin: 15px 10px 10px 0;
   padding: 5px;
 }
-/* line 182, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 #howitworks div ul li.first {
   background-image: url("../images/howitworks-sl.png");
   color: #FFFFFF;
@@ -337,14 +346,14 @@ span.quote-close {
   width: 32px;
   border: none;
 }
-/* line 192, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 #howitworks div ul li.second {
   display: block;
   font-family: helvetica;
   font-size: 20px;
   width: 117px;
 }
-/* line 197, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 #howitworks div ul li.second span {
   display: block;
   font-family: helvetica;
@@ -352,23 +361,23 @@ span.quote-close {
   font-weight: normal;
   padding-bottom: 7px;
 }
-/* line 205, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 #howitworks div ul li.third {
   width: 99px;
   text-align: center;
 }
-/* line 208, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 #howitworks div ul li.four {
   width: 245px;
   margin-right: 0;
 }
 
-/* line 212, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .website {
   float: left;
 }
 
-/* line 215, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .twittersmall {
   background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
@@ -376,7 +385,7 @@ span.quote-close {
   height: 22px;
 }
 
-/* line 221, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .facebooksmall {
   background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
   padding-left: 26px;
@@ -384,48 +393,48 @@ span.quote-close {
   height: 22px;
 }
 
-/* line 227, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .report {
   background: url(../images/report.jpg) 0 0 no-repeat;
 }
 
-/* line 230, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .claimlisting {
   background: url(../images/claim-listing.jpg) 0 0 no-repeat;
   height: 26px;
 }
 
-/* line 235, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 ul#brand {
   float: right;
 }
-/* line 236, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 ul#brand li {
   display: block;
   float: left;
 }
-/* line 239, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 ul#brand li a {
   display: block;
   margin: 2px 10px 0 30px;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 a#brandbutton button {
   padding: 10px 30px;
 }
 
-/* line 247, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 #usercontent div {
   margin: 0;
   padding: 15px 6px 6px;
 }
-/* line 250, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 #usercontent div.grid_5 label {
   display: block;
   color: #353D40;
 }
-/* line 254, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 #usercontent div.grid_5 input {
   display: block;
   -webkit-border-radius: 5px 5px / 5px 5px;
@@ -443,12 +452,12 @@ a#brandbutton button {
   padding-left: 3px;
   width: 170px;
 }
-/* line 266, ../sass/style.scss */
+/* line 272, ../sass/style.scss */
 #usercontent div.grid_4 img {
   margin-top: 20px;
 }
 
-/* line 268, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #usercontent hr {
   float: left;
   position: relative;
@@ -456,7 +465,7 @@ a#brandbutton button {
   border: 1px solid #B0B9BD;
 }
 
-/* line 275, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 #usercontent .button {
   text-transform: capitalize;
   font-weight: bold;
@@ -490,7 +499,7 @@ a#brandbutton button {
   padding: 10px 40px;
   border-width: 1px;
 }
-/* line 279, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 #usercontent .button:hover {
   cursor: pointer;
 }
@@ -534,44 +543,44 @@ a#brandbutton button {
   color: white;
 }
 
-/* line 289, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 #searchresult .grid_4, #searchresult .grid_2 {
   margin: 0;
 }
-/* line 292, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 #searchresult .grid_4 div {
   margin-left: 15px;
 }
-/* line 295, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 #searchresult .grid_4 h4 {
   margin-top: 15px;
 }
-/* line 298, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 #searchresult .grid_4 input:focus {
   border: 1px solid #cc0000;
 }
-/* line 301, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 #searchresult #adds {
   background: #FFFBEC;
   padding: 5px;
 }
-/* line 304, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 #searchresult #adds div {
   padding: 1px 0;
 }
-/* line 308, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 #searchresult #allresults {
   padding: 5px;
 }
-/* line 310, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 #searchresult #allresults div {
   padding: 1px 0;
 }
-/* line 314, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 #searchresult .arrow {
   width: 60px !important;
 }
-/* line 316, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 #searchresult .arrow span a {
   background: url(../images/searchresult-arrow.png) 0 0 no-repeat;
   text-indent: -999px;
@@ -579,26 +588,26 @@ a#brandbutton button {
   height: 22px;
   margin: 4px 10px;
 }
-/* line 323, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 #searchresult .arrow span a:hover {
   background: url(../images/searchresult-arrow-hover.png) 0 0 no-repeat;
 }
-/* line 327, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 #searchresult .grid_2 {
   width: 70px;
 }
-/* line 330, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 #searchresult div#sort {
   text-align: right;
   border-top: 2px solid #D6D6D6;
   padding: 10px;
   text-align: right;
 }
-/* line 335, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 #searchresult div#sort select {
   margin-right: 10px;
 }
-/* line 339, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 #searchresult .grid_12 {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -611,21 +620,21 @@ a#brandbutton button {
   margin-right: 0;
   padding: 5px;
 }
-/* line 344, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 #searchresult .grid_12 div {
   overflow: hidden;
 }
-/* line 348, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 #searchresult .grid_8 a {
   color: #363D41;
 }
-/* line 350, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 #searchresult .grid_8 a:hover {
   color: #CC0000;
   text-decoration: none;
 }
 
-/* line 358, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 #commentform textarea {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -641,7 +650,7 @@ a#brandbutton button {
   padding: 5px;
   margin: 10px 0;
 }
-/* line 367, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 #commentform input.button {
   text-transform: capitalize;
   font-weight: bold;
@@ -674,7 +683,7 @@ a#brandbutton button {
   padding: 6px 10px;
   border-width: 1px;
 }
-/* line 370, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 #commentform input.button:hover {
   cursor: pointer;
 }
@@ -718,27 +727,27 @@ a#brandbutton button {
   color: white;
 }
 
-/* line 380, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 .css-panes div .grid_4, .css-panes div .grid_10 {
   padding: 0px;
   margin: 0px;
 }
-/* line 384, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .css-panes div .grid_4 {
   padding-left: 10px;
 }
-/* line 387, ../sass/style.scss */
+/* line 393, ../sass/style.scss */
 .css-panes div .grid_7 {
   padding: 0;
 }
 
-/* line 391, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 div.dealprice {
   display: block!important;
   padding: 10px 0!important;
 }
 
-/* line 396, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 #alertbox {
   -webkit-border-radius: 8px 8px / 8px 8px;
   -moz-border-radius: 8px 8px / 8px 8px;
@@ -748,18 +757,18 @@ div.dealprice {
   background: #8dc7c2 url(../images/alertboxbg.png) 98% 5px no-repeat;
   padding: 5px 10px;
 }
-/* line 400, ../sass/style.scss */
+/* line 406, ../sass/style.scss */
 #alertbox p {
   font-size: 16px;
   padding-bottom: 5px;
   font-family: helvetica;
   color: #FFFFFF;
 }
-/* line 405, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 #alertbox p span {
   font-weight: bold;
 }
-/* line 409, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 #alertbox input {
   border: 1px solid #54ADAA;
   -webkit-border-radius: 4px 4px / 4px 4px;
@@ -771,7 +780,7 @@ div.dealprice {
   padding: 5px;
   color: #666666;
 }
-/* line 416, ../sass/style.scss */
+/* line 422, ../sass/style.scss */
 #alertbox input.button {
   width: 20px;
   text-transform: capitalize;
@@ -805,7 +814,7 @@ div.dealprice {
   padding: 5px 15px;
   border-width: 1px;
 }
-/* line 422, ../sass/style.scss */
+/* line 428, ../sass/style.scss */
 #alertbox input.button:hover {
   cursor: pointer;
 }
@@ -849,7 +858,7 @@ div.dealprice {
   color: white;
 }
 
-/* line 432, ../sass/style.scss */
+/* line 438, ../sass/style.scss */
 .dealprice ul {
   -webkit-border-radius: 5px 5px / 5px 5px;
   -moz-border-radius: 5px 5px / 5px 5px;
@@ -864,18 +873,18 @@ div.dealprice {
   padding: 5px;
   margin: 0px;
 }
-/* line 439, ../sass/style.scss */
+/* line 445, ../sass/style.scss */
 .dealprice ul li {
   width: 120px;
   float: left;
   text-align: center;
   border-right: 1px dotted #d5d7db;
 }
-/* line 444, ../sass/style.scss */
+/* line 450, ../sass/style.scss */
 .dealprice ul li.last {
   border: none;
 }
-/* line 449, ../sass/style.scss */
+/* line 455, ../sass/style.scss */
 .dealprice span.expireson {
   width: 125px;
   display: block;
@@ -884,7 +893,7 @@ div.dealprice {
   margin-top: 10px;
   background: url(../images/hourglass.jpg) 5px 2px no-repeat;
 }
-/* line 457, ../sass/style.scss */
+/* line 463, ../sass/style.scss */
 .dealprice button {
   margin-top: 10px;
   float: right;
@@ -920,7 +929,7 @@ div.dealprice {
   padding: 6px 10px;
   border-width: 1px;
 }
-/* line 463, ../sass/style.scss */
+/* line 469, ../sass/style.scss */
 .dealprice button:hover {
   cursor: pointer;
 }
@@ -965,44 +974,44 @@ div.dealprice {
 }
 
 /* deal detail page */
-/* line 474, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 #dealdetail .grid_4, #dealdetail .grid_9 {
   margin: 0;
 }
-/* line 477, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 #dealdetail .grid_4 {
   text-align: center;
 }
-/* line 479, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 #dealdetail .grid_4 button {
   margin-top: 10px;
 }
-/* line 483, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 #dealdetail .grid_4 a img {
   margin-top: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 489, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 #dealdetail .grid_4 a:hover {
   text-decoration: none;
 }
-/* line 494, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 #dealdetail .dealprice ul {
   width: 317px;
   padding: 10px 0;
 }
-/* line 497, ../sass/style.scss */
+/* line 503, ../sass/style.scss */
 #dealdetail .dealprice ul li {
   width: 105px;
 }
 
-/* line 503, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 p.userpic {
   height: 42px;
 }
-/* line 505, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 p.userpic img {
   float: left;
   margin-right: 10px;
@@ -1012,17 +1021,17 @@ p.userpic img {
 /**
  * Homepage
  */
-/* line 516, ../sass/style.scss */
+/* line 522, ../sass/style.scss */
 #container .topheader {
   height: 30px;
   background: #363d41;
 }
-/* line 520, ../sass/style.scss */
+/* line 526, ../sass/style.scss */
 #container .topheader header nav ul {
   overflow: hidden;
   margin: 0;
 }
-/* line 523, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 #container .topheader header nav ul li {
   float: left;
   height: 30px;
@@ -1030,7 +1039,7 @@ p.userpic img {
   list-style: none;
   margin-left: 20px;
 }
-/* line 530, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 #container .topheader header nav ul li a {
   color: #AEB5BF;
   font-family: Arial;
@@ -1038,941 +1047,12 @@ p.userpic img {
   padding: 0 5px;
   display: block;
 }
-/* line 536, ../sass/style.scss */
+/* line 542, ../sass/style.scss */
 #container .topheader header nav ul li a:hover {
   color: #FFF;
-}
-
-/* line 543, ../sass/style.scss */
-.set-deals-alert {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 30px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: blue;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a8a8ff), color-stop(10%, #4d4dff), color-stop(50%, #0000f0), color-stop(50%, #0000e0), color-stop(100%, #1414ff));
-  background-image: -webkit-linear-gradient(#a8a8ff, #4d4dff 10%, #0000f0 50%, #0000e0 50%, #1414ff);
-  background-image: -moz-linear-gradient(#a8a8ff, #4d4dff 10%, #0000f0 50%, #0000e0 50%, #1414ff);
-  background-image: -o-linear-gradient(#a8a8ff, #4d4dff 10%, #0000f0 50%, #0000e0 50%, #1414ff);
-  background-image: -ms-linear-gradient(#a8a8ff, #4d4dff 10%, #0000f0 50%, #0000e0 50%, #1414ff);
-  background-image: linear-gradient(#a8a8ff, #4d4dff 10%, #0000f0 50%, #0000e0 50%, #1414ff);
-  border-color: #0000b3;
-  text-shadow: navy 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.5) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.5) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.5) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 15px 30px;
-  border-width: 1px;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.set-deals-alert, .set-deals-alert:visited {
-  color: white;
-}
-/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.set-deals-alert:hover, .set-deals-alert:focus {
-  background-color: #0000f0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9999ff), color-stop(10%, #3d3dff), color-stop(50%, #0000e0), color-stop(50%, #0000d1), color-stop(100%, #0505ff));
-  background-image: -webkit-linear-gradient(#9999ff, #3d3dff 10%, #0000e0 50%, #0000d1 50%, #0505ff);
-  background-image: -moz-linear-gradient(#9999ff, #3d3dff 10%, #0000e0 50%, #0000d1 50%, #0505ff);
-  background-image: -o-linear-gradient(#9999ff, #3d3dff 10%, #0000e0 50%, #0000d1 50%, #0505ff);
-  background-image: -ms-linear-gradient(#9999ff, #3d3dff 10%, #0000e0 50%, #0000d1 50%, #0505ff);
-  background-image: linear-gradient(#9999ff, #3d3dff 10%, #0000e0 50%, #0000d1 50%, #0505ff);
-  border-color: #0000a3;
-  text-shadow: #000070 0px 1px 1px;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.set-deals-alert:hover, .set-deals-alert:hover:visited, .set-deals-alert:focus, .set-deals-alert:focus:visited {
-  color: white;
-}
-/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.set-deals-alert:active {
-  background-color: #0000e0;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0000e0), color-stop(30%, #0000eb), color-stop(50%, #0000d6), color-stop(50%, #0000c7), color-stop(100%, #0a0aff));
-  background-image: -webkit-linear-gradient(#0000e0, #0000eb 30%, #0000d6 50%, #0000c7 50%, #0a0aff);
-  background-image: -moz-linear-gradient(#0000e0, #0000eb 30%, #0000d6 50%, #0000c7 50%, #0a0aff);
-  background-image: -o-linear-gradient(#0000e0, #0000eb 30%, #0000d6 50%, #0000c7 50%, #0a0aff);
-  background-image: -ms-linear-gradient(#0000e0, #0000eb 30%, #0000d6 50%, #0000c7 50%, #0a0aff);
-  background-image: linear-gradient(#0000e0, #0000eb 30%, #0000d6 50%, #0000c7 50%, #0a0aff);
-  border-color: #000094;
-  text-shadow: #000061 0px -1px -1px;
-  -webkit-box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
-  box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
-}
-/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.set-deals-alert:active, .set-deals-alert:active:visited {
-  color: white;
 }
 
 /* line 549, ../sass/style.scss */
-#header-logo {
-  background: #F1F2F3;
-  height: 80px;
-  margin-bottom: 15px;
-  padding-top: 5px;
-}
-=======
-/* incase an inverted custom gradient isn't specified */
-/* line 177, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class {
-  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
-  background: url('/images/button_bg.png?1321429199') repeat-x bottom left;
-  margin: 0;
-  width: auto;
-  overflow: visible;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  border-style: solid;
-  font-weight: bold;
-}
-/* line 165, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-/* line 168, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class:focus {
-  outline: none;
-}
-
-/* line 15, ../sass/style.scss */
-body {
-  font-family: arialMT;
-  font-size: 12px;
-  color: #666666;
-  line-height: 16px;
-}
-
-/* line 21, ../sass/style.scss */
-a {
-  color: #cc0000;
-  text-decoration: none;
-}
-/* line 24, ../sass/style.scss */
-a:hover {
-  text-decoration: underline;
-}
-
-/* line 28, ../sass/style.scss */
-h1 {
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: normal;
-  font-family: helvetica;
-  color: #cc0000;
-  line-height: 20px;
-}
-
-/* line 36, ../sass/style.scss */
-strong {
-  font-weight: bold;
-  color: #666666;
-}
-/* line 39, ../sass/style.scss */
-strong.red {
-  color: #990000;
-}
-
-/* line 43, ../sass/style.scss */
-.black {
-  color: #000000;
-}
-
-/* line 46, ../sass/style.scss */
-.grey {
-  color: #666666;
-}
-
-/* line 49, ../sass/style.scss */
-hr.dotted {
-  border: none;
-  margin: 5px 0;
-  padding: 0;
-  border-bottom: 1px dotted #DBDBDB;
-}
-
-/* line 55, ../sass/style.scss */
-.verticleprefix {
-  padding: 8px;
-}
-
-/* line 58, ../sass/style.scss */
-.breadcrumb {
-  font-size: 11px;
-  padding: 15px 0;
-}
-/* line 61, ../sass/style.scss */
-.breadcrumb .separator {
-  font-size: 10px;
-}
-
-/* line 65, ../sass/style.scss */
-.block {
-  margin: 15px 0;
-}
-
-/* line 68, ../sass/style.scss */
-button {
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 18px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: #a20000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4b4b), color-stop(10%, #ef0000), color-stop(50%, #930000), color-stop(50%, #830000), color-stop(100%, #b60000));
-  background-image: -webkit-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -moz-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -o-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -ms-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  border-color: #550000;
-  text-shadow: #220000 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 10px 12px;
-  border-width: 1px;
-}
-/* line 71, ../sass/style.scss */
-button:hover {
-  cursor: pointer;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button, button:visited {
-  color: white;
-}
-/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:hover, button:focus {
-  background-color: #930000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
-  background-image: -webkit-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -moz-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -o-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -ms-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  border-color: #460000;
-  text-shadow: #130000 0px 1px 1px;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:hover, button:hover:visited, button:focus, button:focus:visited {
-  color: white;
-}
-/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:active {
-  background-color: #830000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
-  background-image: -webkit-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -moz-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -o-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -ms-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  border-color: #370000;
-  text-shadow: #040000 0px -1px -1px;
-  -webkit-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  box-shadow: #550000 0 0.08em 0.2em 1px inset;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button:active, button:active:visited {
-  color: white;
-}
-
-/* line 79, ../sass/style.scss */
-#merchantimg {
-  padding: 0 8px 15px;
-}
-
-/* line 84, ../sass/style.scss */
-#merchantdetails p {
-  padding: 10px 0px 10px 50px;
-}
-/* line 87, ../sass/style.scss */
-#merchantdetails .viewmap {
-  background: url(../images/view-map.jpg) 5px 12px no-repeat;
-}
-/* line 90, ../sass/style.scss */
-#merchantdetails .coupons {
-  background: url(../images/coupon.jpg) 5px 12px no-repeat;
-}
-/* line 93, ../sass/style.scss */
-#merchantdetails .viewmapblack {
-  background: url(../images/view-map-black.jpg) 5px 12px no-repeat;
-}
-/* line 96, ../sass/style.scss */
-#merchantdetails .hourglass {
-  background: url(../images/hourglass.jpg) 5px 12px no-repeat;
-}
-/* line 99, ../sass/style.scss */
-#merchantdetails .mobileno {
-  background: url(../images/mobile.jpg) 12px 12px no-repeat;
-  min-height: 60px;
-}
-/* line 102, ../sass/style.scss */
-#merchantdetails .mobileno strong {
-  color: #000000;
-}
-/* line 105, ../sass/style.scss */
-#merchantdetails .mobileno span {
-  float: left;
-  display: block;
-  padding: 5px 5px 5px 0;
-}
-/* line 113, ../sass/style.scss */
-#merchantdetails .mobileno span.twittersmall {
-  background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-}
-/* line 117, ../sass/style.scss */
-#merchantdetails .mobileno span.facebooksmall {
-  background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-}
-/* line 123, ../sass/style.scss */
-#merchantdetails .report {
-  background: url(../images/report.jpg) 10px 12px no-repeat;
-}
-/* line 126, ../sass/style.scss */
-#merchantdetails .claimlisting {
-  background: url(../images/claim-listing.jpg) 8px 12px no-repeat;
-}
-
-/*Sanjay*/
-/* line 133, ../sass/style.scss */
-h2 {
-  color: #363d41;
-  font-size: 18px;
-  font-family: helvetica;
-  margin: 10px 0;
-}
-
-/* line 139, ../sass/style.scss */
-h2 span {
-  font-weight: bold;
-}
-
-/* line 140, ../sass/style.scss */
-p {
-  padding: 10px 0;
-}
-
-/* line 142, ../sass/style.scss */
-blockquote {
-  margin-left: 30px;
-  overflow: hidden;
-}
-
-/* line 146, ../sass/style.scss */
-blockquote span {
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 23px;
-  width: 29px;
-}
-
-/* line 150, ../sass/style.scss */
-blockquote p {
-  color: #993333;
-  float: left;
-  font-family: helvetica;
-  font-size: 18px;
-  width: 330px;
-}
-
-/* line 155, ../sass/style.scss */
-span.quote-open {
-  background-image: url("../images/quote-open.png");
-  margin-right: 10px;
-  float: left;
-}
-
-/* line 161, ../sass/style.scss */
-span.quote-close {
-  background-image: url("../images/quote-close.png");
-  margin-left: 15px;
-  margin-top: 27px;
-}
-
-/* line 167, ../sass/style.scss */
-.maincontent, #tabs-1 {
-  padding: 0 30px 30px;
-}
-
-/* line 169, ../sass/style.scss */
-#howitworks {
-  margin-top: 20px;
-}
-
-/* line 170, ../sass/style.scss */
-#howitworks div.firsttab {
-  border-top: 1px solid #E4E7E9;
-}
-
-/* line 171, ../sass/style.scss */
-#howitworks div {
-  overflow: hidden;
-  border-bottom: 1px solid #E4E7E9;
-}
-/* line 173, ../sass/style.scss */
-#howitworks div ul li {
-  float: left;
-  margin: 15px 10px 10px 0;
-  padding: 5px;
-}
-/* line 176, ../sass/style.scss */
-#howitworks div ul li.first {
-  background-image: url("../images/howitworks-sl.png");
-  color: #FFFFFF;
-  font-size: 18px;
-  height: 25px;
-  padding: 6px 0;
-  text-align: center;
-  width: 32px;
-  border: none;
-}
-/* line 186, ../sass/style.scss */
-#howitworks div ul li.second {
-  display: block;
-  font-family: helvetica;
-  font-size: 20px;
-  width: 117px;
-}
-/* line 191, ../sass/style.scss */
-#howitworks div ul li.second span {
-  display: block;
-  font-family: helvetica;
-  font-size: 30px;
-  font-weight: normal;
-  padding-bottom: 7px;
-}
-/* line 199, ../sass/style.scss */
-#howitworks div ul li.third {
-  width: 99px;
-  text-align: center;
-}
-/* line 202, ../sass/style.scss */
-#howitworks div ul li.four {
-  width: 245px;
-  margin-right: 0;
-}
-
-/* line 206, ../sass/style.scss */
-.website {
-  float: left;
-}
-
-/* line 209, ../sass/style.scss */
-.twittersmall {
-  background: url(../images/twitter-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-  float: left;
-  height: 22px;
-}
-
-/* line 215, ../sass/style.scss */
-.facebooksmall {
-  background: url(../images/facebook-small.jpg) 4px 2px no-repeat;
-  padding-left: 26px;
-  float: left;
-  height: 22px;
-}
-
-/* line 221, ../sass/style.scss */
-.report {
-  background: url(../images/report.jpg) 0 0 no-repeat;
-}
-
-/* line 224, ../sass/style.scss */
-.claimlisting {
-  background: url(../images/claim-listing.jpg) 0 0 no-repeat;
-  height: 26px;
-}
-
-/* line 229, ../sass/style.scss */
-ul#brand {
-  float: right;
-}
-/* line 230, ../sass/style.scss */
-ul#brand li {
-  display: block;
-  float: left;
-}
-/* line 233, ../sass/style.scss */
-ul#brand li a {
-  display: block;
-  margin: 2px 10px 0 30px;
-}
-
-/* line 239, ../sass/style.scss */
-a#brandbutton button {
-  padding: 10px 30px;
-}
-
-/* line 241, ../sass/style.scss */
-#usercontent div {
-  margin: 0;
-  padding: 15px 6px;
-}
-/* line 244, ../sass/style.scss */
-#usercontent div .grid_5 label {
-  display: block;
-  color: #353D40;
-}
-/* line 248, ../sass/style.scss */
-#usercontent div .grid_5 input {
-  display: block;
-  -webkit-border-radius: 5px 5px / 5px 5px;
-  -moz-border-radius: 5px 5px / 5px 5px;
-  -ms-border-radius: 5px 5px / 5px 5px;
-  -o-border-radius: 5px 5px / 5px 5px;
-  border-radius: 5px 5px / 5px 5px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  margin: 7px 0;
-  color: #79838D;
-}
-
-/* line 258, ../sass/style.scss */
-#commentform textarea {
-  -webkit-border-radius: 5px 5px / 5px 5px;
-  -moz-border-radius: 5px 5px / 5px 5px;
-  -ms-border-radius: 5px 5px / 5px 5px;
-  -o-border-radius: 5px 5px / 5px 5px;
-  border-radius: 5px 5px / 5px 5px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  border: 1px solid #EBEBEB;
-  width: 100%;
-  min-height: 85px;
-  padding: 5px;
-  margin: 10px 0;
-}
-/* line 267, ../sass/style.scss */
-#commentform input.button {
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 14px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: #a20000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4b4b), color-stop(10%, #ef0000), color-stop(50%, #930000), color-stop(50%, #830000), color-stop(100%, #b60000));
-  background-image: -webkit-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -moz-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -o-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -ms-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  border-color: #550000;
-  text-shadow: #220000 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 6px 10px;
-  border-width: 1px;
-}
-/* line 270, ../sass/style.scss */
-#commentform input.button:hover {
-  cursor: pointer;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button, #commentform input.button:visited {
-  color: white;
-}
-/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:hover, #commentform input.button:focus {
-  background-color: #930000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
-  background-image: -webkit-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -moz-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -o-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -ms-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  border-color: #460000;
-  text-shadow: #130000 0px 1px 1px;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:hover, #commentform input.button:hover:visited, #commentform input.button:focus, #commentform input.button:focus:visited {
-  color: white;
-}
-/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:active {
-  background-color: #830000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
-  background-image: -webkit-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -moz-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -o-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -ms-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  border-color: #370000;
-  text-shadow: #040000 0px -1px -1px;
-  -webkit-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  box-shadow: #550000 0 0.08em 0.2em 1px inset;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#commentform input.button:active, #commentform input.button:active:visited {
-  color: white;
-}
-
-/* line 280, ../sass/style.scss */
-.css-panes div .grid_4, .css-panes div .grid_10 {
-  padding: 0px;
-  margin: 0px;
-}
-/* line 284, ../sass/style.scss */
-.css-panes div .grid_4 {
-  padding-left: 10px;
-}
-/* line 287, ../sass/style.scss */
-.css-panes div .grid_7 {
-  padding: 0;
-}
-
-/* line 291, ../sass/style.scss */
-div.dealprice {
-  display: block!important;
-  padding: 10px 0!important;
-}
-
-/* line 296, ../sass/style.scss */
-#alertbox {
-  -webkit-border-radius: 8px 8px / 8px 8px;
-  -moz-border-radius: 8px 8px / 8px 8px;
-  -ms-border-radius: 8px 8px / 8px 8px;
-  -o-border-radius: 8px 8px / 8px 8px;
-  border-radius: 8px 8px / 8px 8px;
-  background: #8dc7c2 url(../images/alertboxbg.png) 98% 5px no-repeat;
-  padding: 5px 10px;
-}
-/* line 300, ../sass/style.scss */
-#alertbox p {
-  font-size: 16px;
-  padding-bottom: 5px;
-  font-family: helvetica;
-  color: #FFFFFF;
-}
-/* line 305, ../sass/style.scss */
-#alertbox p span {
-  font-weight: bold;
-}
-/* line 309, ../sass/style.scss */
-#alertbox input {
-  border: 1px solid #54ADAA;
-  -webkit-border-radius: 4px 4px / 4px 4px;
-  -moz-border-radius: 4px 4px / 4px 4px;
-  -ms-border-radius: 4px 4px / 4px 4px;
-  -o-border-radius: 4px 4px / 4px 4px;
-  border-radius: 4px 4px / 4px 4px;
-  width: 140px;
-  padding: 5px;
-  color: #666666;
-}
-/* line 316, ../sass/style.scss */
-#alertbox input.button {
-  width: 20px;
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  font-size: 14px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 1px;
-  background-color: #0dcdcb;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a4dfde), color-stop(10%, #60c7c6), color-stop(50%, #359695), color-stop(50%, #318a8a), color-stop(100%, #3eb0af));
-  background-image: -webkit-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: -moz-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: -o-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: -ms-linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  background-image: linear-gradient(#a4dfde, #60c7c6 10%, #359695 50%, #318a8a 50%, #3eb0af);
-  border-color: #256968;
-  text-shadow: #065554 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.427) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.427) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.427) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 5px 15px;
-  border-width: 1px;
-}
-/* line 322, ../sass/style.scss */
-#alertbox input.button:hover {
-  cursor: pointer;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button, #alertbox input.button:visited {
-  color: white;
-}
-/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:hover, #alertbox input.button:focus {
-  background-color: #0cbebd;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #98dbda), color-stop(10%, #55c3c2), color-stop(50%, #318a8a), color-stop(50%, #2d7f7e), color-stop(100%, #3aa5a4));
-  background-image: -webkit-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: -moz-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: -o-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: -ms-linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  background-image: linear-gradient(#98dbda, #55c3c2 10%, #318a8a 50%, #2d7f7e 50%, #3aa5a4);
-  border-color: #215d5d;
-  text-shadow: #054746 0px 1px 1px;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:hover, #alertbox input.button:hover:visited, #alertbox input.button:focus, #alertbox input.button:focus:visited {
-  color: white;
-}
-/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:active {
-  background-color: #0cb0ae;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #318a8a), color-stop(30%, #349291), color-stop(50%, #2e8382), color-stop(50%, #2a7877), color-stop(100%, #3ca9a7));
-  background-image: -webkit-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: -moz-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: -o-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: -ms-linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  background-image: linear-gradient(#318a8a, #349291 30%, #2e8382 50%, #2a7877 50%, #3ca9a7);
-  border-color: #1d5251;
-  text-shadow: #043838 0px -1px -1px;
-  -webkit-box-shadow: #256968 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #256968 0 0.08em 0.2em 1px inset;
-  box-shadow: #256968 0 0.08em 0.2em 1px inset;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-#alertbox input.button:active, #alertbox input.button:active:visited {
-  color: white;
-}
-
-/* line 332, ../sass/style.scss */
-.dealprice ul {
-  -webkit-border-radius: 5px 5px / 5px 5px;
-  -moz-border-radius: 5px 5px / 5px 5px;
-  -ms-border-radius: 5px 5px / 5px 5px;
-  -o-border-radius: 5px 5px / 5px 5px;
-  border-radius: 5px 5px / 5px 5px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  width: 362px;
-  height: 32px;
-  padding: 5px;
-  margin: 0px;
-}
-/* line 339, ../sass/style.scss */
-.dealprice ul li {
-  width: 120px;
-  float: left;
-  text-align: center;
-  border-right: 1px dotted #d5d7db;
-}
-/* line 344, ../sass/style.scss */
-.dealprice ul li.last {
-  border: none;
-}
-/* line 349, ../sass/style.scss */
-.dealprice span.expireson {
-  width: 125px;
-  display: block;
-  padding-left: 30px;
-  float: left;
-  margin-top: 10px;
-  background: url(../images/hourglass.jpg) 5px 2px no-repeat;
-}
-/* line 357, ../sass/style.scss */
-.dealprice button {
-  margin-top: 10px;
-  float: right;
-  margin-right: 15px;
-  text-transform: capitalize;
-  font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 14px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 0px;
-  background-color: #a20000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff4b4b), color-stop(10%, #ef0000), color-stop(50%, #930000), color-stop(50%, #830000), color-stop(100%, #b60000));
-  background-image: -webkit-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -moz-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -o-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: -ms-linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  background-image: linear-gradient(#ff4b4b, #ef0000 10%, #930000 50%, #830000 50%, #b60000);
-  border-color: #550000;
-  text-shadow: #220000 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.318) 0 0 0.1em 1px inset;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  padding: 6px 10px;
-  border-width: 1px;
-}
-/* line 363, ../sass/style.scss */
-.dealprice button:hover {
-  cursor: pointer;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.dealprice button, .dealprice button:visited {
-  color: white;
-}
-/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.dealprice button:hover, .dealprice button:focus {
-  background-color: #930000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
-  background-image: -webkit-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -moz-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -o-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: -ms-linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  background-image: linear-gradient(#ff3c3c, #df0000 10%, #830000 50%, #740000 50%, #a70000);
-  border-color: #460000;
-  text-shadow: #130000 0px 1px 1px;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.dealprice button:hover, .dealprice button:hover:visited, .dealprice button:focus, .dealprice button:focus:visited {
-  color: white;
-}
-/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.dealprice button:active {
-  background-color: #830000;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
-  background-image: -webkit-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -moz-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -o-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: -ms-linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  background-image: linear-gradient(#830000, #8e0000 30%, #790000 50%, #6a0000 50%, #ac0000);
-  border-color: #370000;
-  text-shadow: #040000 0px -1px -1px;
-  -webkit-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
-  box-shadow: #550000 0 0.08em 0.2em 1px inset;
-}
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.dealprice button:active, .dealprice button:active:visited {
-  color: white;
-}
-
-/* deal detail page */
-/* line 374, ../sass/style.scss */
-#dealdetail .grid_4, #dealdetail .grid_9 {
-  margin: 0;
-}
-/* line 377, ../sass/style.scss */
-#dealdetail .grid_4 {
-  text-align: center;
-}
-/* line 379, ../sass/style.scss */
-#dealdetail .grid_4 button {
-  margin-top: 10px;
-}
-/* line 383, ../sass/style.scss */
-#dealdetail .grid_4 a img {
-  margin-top: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 389, ../sass/style.scss */
-#dealdetail .grid_4 a:hover {
-  text-decoration: none;
-}
-/* line 394, ../sass/style.scss */
-#dealdetail .dealprice ul {
-  width: 317px;
-  padding: 10px 0;
-}
-/* line 397, ../sass/style.scss */
-#dealdetail .dealprice ul li {
-  width: 105px;
-}
-
-/* line 403, ../sass/style.scss */
-p.userpic {
-  height: 42px;
-}
-/* line 405, ../sass/style.scss */
-p.userpic img {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-/**
- * Homepage
- */
-/* line 416, ../sass/style.scss */
-#container .topheader {
-  height: 30px;
-  background: #363d41;
-}
-/* line 420, ../sass/style.scss */
-#container .topheader header nav ul {
-  overflow: hidden;
-  margin: 0;
-}
-/* line 423, ../sass/style.scss */
-#container .topheader header nav ul li {
-  float: left;
-  height: 30px;
-  line-height: 30px;
-  list-style: none;
-  margin-left: 20px;
-}
-/* line 430, ../sass/style.scss */
-#container .topheader header nav ul li a {
-  color: #AEB5BF;
-  font-family: Arial;
-  font-size: 13px;
-  padding: 0 5px;
-  display: block;
-}
-/* line 436, ../sass/style.scss */
-#container .topheader header nav ul li a:hover {
-  color: #FFF;
-}
-
-/* line 443, ../sass/style.scss */
 .set-deals-alert {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2003,11 +1083,11 @@ p.userpic img {
   padding: 15px 30px;
   border-width: 1px;
 }
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert, .set-deals-alert:visited {
   color: white;
 }
-/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:hover, .set-deals-alert:focus {
   background-color: #0000f0;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9999ff), color-stop(10%, #3d3dff), color-stop(50%, #0000e0), color-stop(50%, #0000d1), color-stop(100%, #0505ff));
@@ -2019,11 +1099,11 @@ p.userpic img {
   border-color: #0000a3;
   text-shadow: #000070 0px 1px 1px;
 }
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:hover, .set-deals-alert:hover:visited, .set-deals-alert:focus, .set-deals-alert:focus:visited {
   color: white;
 }
-/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:active {
   background-color: #0000e0;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0000e0), color-stop(30%, #0000eb), color-stop(50%, #0000d6), color-stop(50%, #0000c7), color-stop(100%, #0a0aff));
@@ -2038,12 +1118,12 @@ p.userpic img {
   -moz-box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
   box-shadow: #0000b3 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .set-deals-alert:active, .set-deals-alert:active:visited {
   color: white;
 }
 
-/* line 449, ../sass/style.scss */
+/* line 555, ../sass/style.scss */
 #header-logo {
   background: #F1F2F3;
   height: 80px;
@@ -2051,54 +1131,54 @@ p.userpic img {
   padding-top: 5px;
 }
 
-/* line 456, ../sass/style.scss */
+/* line 562, ../sass/style.scss */
 #menubg {
   height: 30px;
   background: #363d41;
 }
-/* line 460, ../sass/style.scss */
+/* line 566, ../sass/style.scss */
 #menubg ul li {
   float: right;
 }
-/* line 463, ../sass/style.scss */
+/* line 569, ../sass/style.scss */
 #menubg ul li.dropdown a {
   background: url(../images/down-arrow-grey.png) 92% 12px no-repeat;
   padding-right: 24px;
 }
-/* line 467, ../sass/style.scss */
+/* line 573, ../sass/style.scss */
 #menubg ul li.dropdown a.active, #menubg ul li.dropdown a:hover {
   background: url(../images/down-arrow.png) 92% 12px no-repeat;
 }
-/* line 471, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 #menubg ul li a {
   color: #AEB5BF;
   padding: 7px 10px;
   font-weight: bold;
   display: block;
 }
-/* line 476, ../sass/style.scss */
+/* line 582, ../sass/style.scss */
 #menubg ul li a:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 480, ../sass/style.scss */
+/* line 586, ../sass/style.scss */
 #menubg ul li a.active {
   color: #FFFFFF;
   background-color: #000000;
 }
 
-/* line 489, ../sass/style.scss */
+/* line 595, ../sass/style.scss */
 #headerbg {
   background: #f1f2f3;
   height: 60px;
   color: #000000;
   padding: 10px 0;
 }
-/* line 494, ../sass/style.scss */
+/* line 600, ../sass/style.scss */
 #headerbg .grid_8 {
   margin-top: 15px;
 }
-/* line 496, ../sass/style.scss */
+/* line 602, ../sass/style.scss */
 #headerbg .grid_8 span {
   line-height: 24px;
   height: 24px;
@@ -2107,26 +1187,26 @@ p.userpic img {
 }
 
 /* custom dropdown chosen css override */
-/* line 506, ../sass/style.scss */
+/* line 612, ../sass/style.scss */
 .container_24 .chzn-container-single .chzn-single div {
   background: none;
   border: none;
 }
 
-/* line 510, ../sass/style.scss */
+/* line 616, ../sass/style.scss */
 .container_24 .chzn-container-single .chzn-single {
   background: #FFFFFF;
   margin: 0 10px;
   width: 120px;
   height: 24px;
   line-height: 24px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 2px #333333;
+  -moz-box-shadow: 0px 0px 2px #333333;
+  box-shadow: 0px 0px 2px #333333;
   border-color: #cbced1;
 }
 
-/* line 520, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 #searchbox {
   background: #e4e7e9;
   -webkit-border-radius: 5px 5px / 5px 5px;
@@ -2136,7 +1216,7 @@ p.userpic img {
   border-radius: 5px 5px / 5px 5px;
   padding: 15px 15px 30px;
 }
-/* line 524, ../sass/style.scss */
+/* line 630, ../sass/style.scss */
 #searchbox input {
   -webkit-box-shadow: #aaaaaa 0px 0px 5px;
   -moz-box-shadow: #aaaaaa 0px 0px 5px;
@@ -2148,19 +1228,19 @@ p.userpic img {
   color: #000000;
   height: 20px;
 }
-/* line 532, ../sass/style.scss */
+/* line 638, ../sass/style.scss */
 #searchbox input.city {
   width: 100px;
 }
-/* line 535, ../sass/style.scss */
+/* line 641, ../sass/style.scss */
 #searchbox input.location {
   width: 120px;
 }
-/* line 538, ../sass/style.scss */
+/* line 644, ../sass/style.scss */
 #searchbox input.searchtext {
   width: 198px;
 }
-/* line 541, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 #searchbox input.button {
   text-transform: capitalize;
   font-weight: bold;
@@ -2194,15 +1274,15 @@ p.userpic img {
   padding: 6px 10px;
   border-width: 1px;
 }
-/* line 545, ../sass/style.scss */
+/* line 651, ../sass/style.scss */
 #searchbox input.button:hover {
   cursor: pointer;
 }
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #searchbox input.button, #searchbox input.button:visited {
   color: white;
 }
-/* line 31, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #searchbox input.button:hover, #searchbox input.button:focus {
   background-color: #930000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3c3c), color-stop(10%, #df0000), color-stop(50%, #830000), color-stop(50%, #740000), color-stop(100%, #a70000));
@@ -2214,11 +1294,11 @@ p.userpic img {
   border-color: #460000;
   text-shadow: #130000 0px 1px 1px;
 }
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #searchbox input.button:hover, #searchbox input.button:hover:visited, #searchbox input.button:focus, #searchbox input.button:focus:visited {
   color: white;
 }
-/* line 36, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #searchbox input.button:active {
   background-color: #830000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #830000), color-stop(30%, #8e0000), color-stop(50%, #790000), color-stop(50%, #6a0000), color-stop(100%, #ac0000));
@@ -2233,49 +1313,49 @@ p.userpic img {
   -moz-box-shadow: #550000 0 0.08em 0.2em 1px inset;
   box-shadow: #550000 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../.rvm/gems/ruby-1.9.2-p290/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 #searchbox input.button:active, #searchbox input.button:active:visited {
   color: white;
 }
-/* line 553, ../sass/style.scss */
+/* line 659, ../sass/style.scss */
 #searchbox span {
   display: block;
   float: left;
   padding: 0px 5px;
 }
-/* line 557, ../sass/style.scss */
+/* line 663, ../sass/style.scss */
 #searchbox span.city {
   width: 120px;
 }
-/* line 560, ../sass/style.scss */
+/* line 666, ../sass/style.scss */
 #searchbox span.location {
   width: 140px;
 }
-/* line 563, ../sass/style.scss */
+/* line 669, ../sass/style.scss */
 #searchbox span.searchtext {
   width: 198px;
 }
 
-/* line 569, ../sass/style.scss */
+/* line 675, ../sass/style.scss */
 #dealalert {
   background: url(../images/dealalertbg.jpg) 0 0 no-repeat;
   padding: 20px 30px;
 }
-/* line 572, ../sass/style.scss */
+/* line 678, ../sass/style.scss */
 #dealalert h1 {
   color: #FFFFFF;
   font-weight: bold;
 }
-/* line 576, ../sass/style.scss */
+/* line 682, ../sass/style.scss */
 #dealalert span {
   color: #FFFFFF;
 }
 
-/* line 581, ../sass/style.scss */
+/* line 687, ../sass/style.scss */
 #top5 {
   background: #e4e7e9;
   border: 1px solid #FFFFFF;
-  margin-top: 30px;
+  margin-top: 13px;
   padding: 15px 8px;
   height: 30px;
   -webkit-border-radius: 5px 5px 0px 0px;
@@ -2284,7 +1364,7 @@ p.userpic img {
   -o-border-radius: 5px 5px 0px 0px;
   border-radius: 5px 5px 0px 0px;
 }
-/* line 588, ../sass/style.scss */
+/* line 694, ../sass/style.scss */
 #top5 span {
   line-height: 24px;
   height: 24px;
@@ -2293,39 +1373,69 @@ p.userpic img {
   color: #000000;
 }
 
-/* line 598, ../sass/style.scss */
+/* line 702, ../sass/style.scss */
+#topslideshow {
+  background: url(../images/topslideshow-bg.jpg) 0 0 repeat-x;
+  height: 160px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+/* line 707, ../sass/style.scss */
+#topslideshow .grid_13 {
+  width: 520px;
+}
+
+/* line 712, ../sass/style.scss */
+.scrollable {
+  width: 530px !important;
+}
+/* line 714, ../sass/style.scss */
+.scrollable .items .grid_8 {
+  width: 350px;
+}
+/* line 717, ../sass/style.scss */
 .scrollable a.browse {
   width: 19px;
   height: 45px;
   margin-top: 70px;
 }
-/* line 603, ../sass/style.scss */
+/* line 722, ../sass/style.scss */
 .scrollable a.left {
   background: url(../images/top-left.png) 0 0 no-repeat;
   margin-left: 10px;
 }
-/* line 607, ../sass/style.scss */
+/* line 726, ../sass/style.scss */
 .scrollable a.right {
   margin-right: 10px;
   background: url(../images/top-right.png) 0 0 no-repeat;
 }
-/* line 611, ../sass/style.scss */
+/* line 730, ../sass/style.scss */
 .scrollable div.dealprice {
   width: 355px;
 }
-/* line 613, ../sass/style.scss */
+/* line 732, ../sass/style.scss */
 .scrollable div.dealprice ul {
-  width: 332px;
+  width: 300px;
 }
-/* line 615, ../sass/style.scss */
+/* line 734, ../sass/style.scss */
 .scrollable div.dealprice ul li {
-  width: 110px;
+  width: 98px;
 }
 
-/* line 623, ../sass/style.scss */
+/* line 740, ../sass/style.scss */
+#bottomslideshow .grid_1 {
+  margin: 0;
+}
+/* line 742, ../sass/style.scss */
+#bottomslideshow .grid_1 a.browse {
+  margin-top: 80px !important;
+}
+
+/* line 749, ../sass/style.scss */
 .recommanded ul li {
   float: left;
   padding: 10px;
+  margin: 0 7px;
   border: 1px solid #dee0e2;
   background: #e3e6e8;
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -2335,16 +1445,16 @@ p.userpic img {
   border-radius: 5px 5px 5px 5px;
   width: 135px;
 }
-/* line 630, ../sass/style.scss */
+/* line 757, ../sass/style.scss */
 .recommanded ul li span {
-  float: right;
-  position: relative;
-  display: block;
-  margin-top: -20px;
-  width: 40px;
-  height: 100px;
-  background: url(../images/discountbg.png) 0 0 no-repeat;
   color: #FFFFFF;
+  display: block;
+  float: right;
   font-weight: bold;
+  height: 37px;
+  margin-top: -30px;
+  padding: 4px 0 0 9px;
+  position: relative;
+  width: 23px;
+  background: url(../images/howitworks-sl.png) 0 0 no-repeat;
 }
->>>>>>> homepage

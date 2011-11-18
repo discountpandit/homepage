@@ -687,7 +687,7 @@ p.userpic {
 #top5 {
   background: #e4e7e9;
   border: 1px solid #FFFFFF;
-  margin-top: 30px;
+  margin-top: 13px;
   padding: 15px 8px;
   height: 30px;
   @include border-radius(5px 5px 0px 0px);
@@ -699,8 +699,21 @@ p.userpic {
     color: #000000;
   }
 }
+#topslideshow {
+  background: url(../images/topslideshow-bg.jpg) 0 0 repeat-x;
+  height: 160px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  .grid_13{
+    width:520px;
+  }
+}
 
 .scrollable {
+  width:530px !important;
+  .items .grid_8{
+    width:350px;
+  }
   a.browse {
     width: 19px;
     height: 45px;
@@ -717,34 +730,44 @@ p.userpic {
   div.dealprice {
     width: 355px;
     ul {
-      width: 332px;
+      width: 300px;
       li {
-        width: 110px;
+        width: 98px;
       }
     }
   }
 }
+#bottomslideshow .grid_1{
+    margin:0;
+    a.browse {
+      margin-top:80px !important;
+    }
+}
 .recommanded {
+  
   ul {
     li {
       float: left;
       padding: 10px;
+      margin:0 7px;
       border: 1px solid #dee0e2;
       background: #e3e6e8;
       @include border-radius(5px 5px 5px 5px);
       width: 135px;
       span {
-        float: right;
-        position: relative;
-        display: block;
-        margin-top: -20px;
-        width: 40px;
-        height: 100px;
-        background: url(../images/discountbg.png) 0 0 no-repeat;
-        color: #FFFFFF;
-        font-weight: bold;
+            color: #FFFFFF;
+            display: block;
+            float: right;
+            font-weight: bold;
+            height: 37px;
+            margin-top: -30px;
+            padding: 4px 0 0 9px;
+            position: relative;
+            width: 23px;
+            background: url(../images/howitworks-sl.png) 0 0 no-repeat;
+        
       }
     }
   }
 }
->>>>>>> homepage
+
